@@ -39,13 +39,19 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular";}
 .text-orange{
     color: #ed6f30;
 }
-
-/* Pages */
-.home-about{
-    padding: 10rem;
+a:hover{
+    text-decoration: none;
 }
+/* Button and Links */
 .link-white-border{
     border: 2px solid #fff;
     padding: 15px 20px;
     color: #fff;
+}
+.link-white-border:hover{
+    color: #fff;
+}
+/* Pages */
+.home-about{
+    padding: 10rem;
 }
