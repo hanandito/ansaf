@@ -2,3 +2,6 @@
     background-image: url(../images/home-top-background-08.jpg);
     height: 1150px;
 }
+.navbar{
+    position: absolute;
+}
