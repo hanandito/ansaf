@@ -1,6 +1,7 @@
 .bg-home-top{
     background-image: url(../images/home-top-background-08.jpg);
     height: 1150px;
+    background-size: 100%;
 }
 .navbar{
     position: absolute;
@@ -28,12 +29,12 @@ body{
     width: 85%;
 }
 @font-face{
-    font-family: "Lato Light";
-    src: url(Lato-Light.ttf) format("truetype");
+    font-family: "Roboto Light";
+    src: url(Roboto-Light.ttf) format("truetype");
 }
 @font-face{
-    font-family: "Lato Regular";
-    src: url(Lato-Regular.ttf) format("truetype");
+    font-family: "TitilliumWeb Regular";
+    src: url(TitilliumWeb-Regular.ttf) format("truetype");
 }
 @font-face{
     font-family: "GildaDisplay Regular";
