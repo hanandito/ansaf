@@ -1,6 +1,5 @@
 .bg-home-top{
     background-image: url(../images/home-top-background-08.jpg);
-    height: 1150px;
     background-size: 100%;
 }
 .navbar{
@@ -36,12 +35,17 @@ body{
     font-family: "TitilliumWeb Regular";
     src: url(TitilliumWeb-Regular.ttf) format("truetype");
 }
-@font-face{
-    font-family: "GildaDisplay Regular";
-    src: url(GildaDisplay-Regular.ttf) format("truetype");
+h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular";}
+.text-orange{
+    color: #ed6f30;
 }
-@font-face{
-    font-family: "Montserrat Bold";
-    src: url(Montserrat-Bold.ttf) format("truetype");
+
+/* Pages */
+.home-about{
+    padding: 10rem;
 }
-h1, h2, h3, h4, h5, h6{font-family: "GildaDisplay Regular";}
+.link-white-border{
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    color: #fff;
+}
