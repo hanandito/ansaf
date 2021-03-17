@@ -59,3 +59,6 @@ a:hover{
 .home-about{
     padding: 10rem 0 20.2rem;
 }
+.carousel-homebanner .home-caption .wrapper{
+    position: absolute;
+}
