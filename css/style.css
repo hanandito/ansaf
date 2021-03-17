@@ -63,3 +63,8 @@ a:hover{
     position: absolute;
     bottom: 25%;
 }
+.home-about .tractors{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
