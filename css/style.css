@@ -61,4 +61,5 @@ a:hover{
 }
 .carousel-homebanner .home-caption .wrapper{
     position: absolute;
+    bottom: 25%;
 }
