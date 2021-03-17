@@ -76,3 +76,11 @@ a:hover{
     right: 0;
     width: 510px;
 }
+.home-mid-content .image-thumbnail{
+    overflow: hidden;
+}
+.home-mid-content .image-thumbnail .shadow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
