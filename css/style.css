@@ -35,7 +35,7 @@ body{
     font-family: "TitilliumWeb Regular";
     src: url(TitilliumWeb-Regular.ttf) format("truetype");
 }
-h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular";}
+h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 1.2px;}
 .text-orange{
     color: #ed6f30;
 }
@@ -88,4 +88,9 @@ a:hover{
     background-image: url(../images/home-mid-background-08-01.jpg);
     background-size: cover;
     height: 1024px;
+}
+.home-mid-content .thumbnail .title{
+		position: absolute;
+		bottom: 15px;
+		left: 25px;
 }

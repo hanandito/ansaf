@@ -25,8 +25,8 @@
  $('.carousel-ourbusiness').addClass('owl-carousel owl-theme').owlCarousel({
   stagePadding: 40,
   loop:false,
-  margin:2,
-  nav:false,
+  margin: 17,
+  navText: ["<img src="../images/">","<img src="">"],
   items:2,
   responsive:{
    0: {
@@ -41,7 +41,7 @@
    1000: {
      items: 2,
      dots: false,
-     nav: false
+     nav: true
    }
  }
 })
