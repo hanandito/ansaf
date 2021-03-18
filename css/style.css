@@ -120,6 +120,13 @@ a:hover{
 	height: 428px;
 	padding-left: 6.2rem;
 	padding-top: 6.4rem;
+	position: absolute;
 	bottom: 0;
 	right: 0;
+}
+.footer{
+	background-image: url(../images/footer-home-background-12.jpg);
+	background-size: cover;
+	padding-top: 12rem;
+	
 }
