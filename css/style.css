@@ -102,3 +102,7 @@ a:hover{
 	left: -28.8%;
 	bottom: 0;
 }
+.home-mid-content .white-shadow-right{
+	position: absolute;
+	right: 0;
+}
