@@ -109,3 +109,6 @@ a:hover{
 	bottom: 0;
 	z-index: 2;
 }
+.bottom-content .news-section .img-content{
+	width: 100%;
+}
