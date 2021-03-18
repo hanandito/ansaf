@@ -26,7 +26,7 @@
   stagePadding: 40,
   loop:false,
   margin: 17,
-  navText: ["<img src="../images/">","<img src="">"],
+  navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
   items:2,
   responsive:{
    0: {

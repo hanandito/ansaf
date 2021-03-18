@@ -94,3 +94,11 @@ a:hover{
 		bottom: 15px;
 		left: 25px;
 }
+.home-mid-content .carousel-ourbusiness .owl-nav .owl-prev, .home-mid-content .carousel-ourbusiness .owl-nav .owl-next{
+		margin: 0;
+}
+.home-mid-content .carousel-ourbusiness .owl-nav{
+	position: absolute;
+	left: -28.8%;
+	bottom: 0;
+}
