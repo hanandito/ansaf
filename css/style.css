@@ -79,7 +79,7 @@ a:hover{
 .home-mid-content .image-thumbnail{
     overflow: hidden;
 }
-.home-mid-content .image-thumbnail .shadow{
+.home-mid-content .image-thumbnail .shadow, .bg-mid-value .shadow{
     position: absolute;
     bottom: 0;
     left: 0;
