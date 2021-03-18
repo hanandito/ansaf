@@ -2,7 +2,7 @@
     background-image: url(../images/home-top-background-08.jpg);
     background-size: cover;
 }
-.navbar{
+.navbar{								
     position: absolute;
 }
 body{
@@ -65,7 +65,7 @@ a:hover{
     bottom: 25%;
 }
 .home-about .tractors{
-    position: absolute;
+		position: absolute;
     bottom: 0;
     left: 0;
     width: 500px;
@@ -83,4 +83,9 @@ a:hover{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.home-mid-content .bg-mid-value{
+    background-image: url(../images/home-mid-background-08-01.jpg);
+    background-size: cover;
+    height: 1024px;
 }
