@@ -116,6 +116,8 @@ a:hover{
 	background-image: url(../images/content-highlight-wrapper.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 450px;
-	height: 284px;
+	width: 680px;
+	height: 428px;
+	padding-left: 5.5rem;
+	padding-top: 3.4rem;
 }
