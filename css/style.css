@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacin
 .text-orange{
     color: #ed6f30;
 }
-.text-dar-biru{
+.text-dark-blue{
     color: #0e212d;
 }
 a:hover{
@@ -128,5 +128,5 @@ a:hover{
 	background-image: url(../images/footer-home-background-12.jpg);
 	background-size: cover;
 	padding-top: 12rem;
-	
+
 }
