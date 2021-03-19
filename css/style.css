@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacin
     color: #0e212d;
 }
 .bg-dark-blue{
-    color: #0e212d;
+    background: #0e212d;
 }
 a:hover{
     text-decoration: none;
@@ -145,6 +145,9 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 130px;
+}
+.about-mid{
+    padding-top: 7rem;
 }
 .about-mid .content-mid{
     position: absolute;
