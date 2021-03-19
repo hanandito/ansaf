@@ -135,3 +135,10 @@ a:hover{
     padding-top: 23rem;
     padding-bottom: 8.9rem;
 }
+.about-top .elements{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+    width: 130px;
+}
