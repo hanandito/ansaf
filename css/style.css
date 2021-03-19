@@ -146,3 +146,8 @@ a:hover{
     transform: translateY(-50%);
     width: 130px;
 }
+.about-mid .content-mid{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
