@@ -132,8 +132,9 @@ a:hover{
 }
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
-    padding-top: 23rem;
-    padding-bottom: 8.9rem;
+    padding-top: 12.6rem;
+    padding-bottom: 4.9rem;
+    background-size: 100%;
 }
 .about-top .elements{
     position: absolute;
