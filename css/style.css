@@ -166,3 +166,8 @@ a:hover{
 .footer-content .number-counter{
     font-size: 80px;
 }
+.footer-details .logo{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
