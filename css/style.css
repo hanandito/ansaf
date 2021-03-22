@@ -37,7 +37,20 @@ body{
     font-family: "TitilliumWeb Regular";
     src: url(TitilliumWeb-Regular.ttf) format("truetype");
 }
+@font-face{
+    font-family: "TitilliumWeb Italic Regular";
+    src: url(TitilliumWeb-ExtraLightItalic.ttf) format("truetype");
+}
 h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 1.2px;}
+.font-titillium-reg{
+    font-family: "TitilliumWeb Regular";
+}
+.font-titillium-italic{
+    font-family: "TitilliumWeb Italic Regular";
+}
+.font-50{
+    font-size: 50px;
+}
 .text-orange{
     color: #ed6f30;
 }
@@ -167,19 +180,16 @@ a:hover{
 }
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
-    padding-top: 12.6rem;
-    padding-bottom: 7.7rem;
+    padding-top: 10.8rem;
+    padding-bottom: 6.3rem;
     background-size: 100%;
 }
 .about-top .elements{
     position: absolute;
-    top: 264px;
+    top: 214px;
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
-}
-.about-mid{
-    padding-bottom: 12rem;
 }
 .about-mid .content-mid{
     position: absolute;
@@ -187,8 +197,15 @@ a:hover{
     top: 0;
     width: 50vw;
 }
+.about-mid .content-wrapper{
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
 .about-mid .second-section{
-    padding-top: 20rem;
+    background-image: url(../images/about-mid-second-section-04.jpg);
+    padding-top: 11rem;
+    padding-bottom: 40.2rem;
+    background-size: cover;;
 }
 .footer-content .number-counter{
     font-size: 80px;
@@ -197,4 +214,18 @@ a:hover{
     width: 70%;
     margin: auto;
     display: block;
+}
+.about-mid .second-section .owl-nav .owl-prev, .about-mid .second-section .owl-nav .owl-next{
+    margin: 0;
+}
+.about-mid .second-section .owl-nav{
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+.about-bottom-content{
+    background-image: url(../images/bottom-about-bottom-content-05.jpg);
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
 }
