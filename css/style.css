@@ -1,6 +1,8 @@
 .bg-home-top{
     background-image: url(../images/home-top-background-08.jpg);
     background-size: cover;
+    position: relative;
+    z-index: 3;
 }
 .navbar{								
     position: absolute;
@@ -77,6 +79,12 @@ a:hover{
     position: absolute;
     bottom: 25%;
 }
+.bg-home-top .ornaments-blue{
+    position: absolute;
+    right: 0;
+    top: 46%;
+    width: 10.9vw;
+}
 .home-about .tractors{
 		position: absolute;
     bottom: 0;
@@ -122,6 +130,13 @@ a:hover{
 	bottom: 0;
 	z-index: 2;
 }
+.bg-mid-value .title-thumbnail{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
 .bottom-content .news-section .img-content{
 	width: 100%;
 }
@@ -137,6 +152,12 @@ a:hover{
 	bottom: 0;
 	right: 0;
 }
+.bottom-content .ornament-blue{
+    position: absolute;
+    left: 0;
+    top: -57%;
+    width: 10.9vw;
+}
 .footer-content{
 	background-image: url(../images/footer-home-background-12.jpg);
 	background-size: cover;
@@ -147,18 +168,17 @@ a:hover{
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
     padding-top: 12.6rem;
-    padding-bottom: 4.9rem;
+    padding-bottom: 7.7rem;
     background-size: 100%;
 }
 .about-top .elements{
     position: absolute;
-    top: 0;
+    top: 264px;
     right: 0;
     transform: translateY(-50%);
-    width: 130px;
+    width: 10.9vw;
 }
 .about-mid{
-    padding-top: 7rem;
     padding-bottom: 12rem;
 }
 .about-mid .content-mid{
