@@ -63,6 +63,7 @@ a:hover{
 }
 .link-orange-border{
     border: 2px solid #ed6f30;
+    padding: 5px 15px;
 }
 /* Pages */
 .home-about{
