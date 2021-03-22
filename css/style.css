@@ -61,6 +61,9 @@ a:hover{
 .link-white-border:hover{
     color: #fff;
 }
+.link-orange-border{
+    border: 2px solid #ed6f30;
+}
 /* Pages */
 .home-about{
     padding-top: 10rem;
