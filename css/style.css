@@ -51,6 +51,9 @@ h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacin
 a:hover{
     text-decoration: none;
 }
+.text-gray{
+    color: #666666;
+}
 /* Components */
 /* Button and Links */
 .link-white-border{
