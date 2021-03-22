@@ -186,7 +186,7 @@ a:hover{
 }
 .about-top .elements{
     position: absolute;
-    top: 214px;
+    top: 238px;
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
@@ -228,4 +228,17 @@ a:hover{
     background-size: cover;
     padding-top: 12rem;
     padding-bottom: 12rem;
+}
+.vision-top{
+    background-image: url(../images/vision-top-header-02.jpg);
+    padding-top: 12.8rem;
+    padding-bottom: 8.3rem;
+    background-size: 100%;
+}
+.vision-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
 }
