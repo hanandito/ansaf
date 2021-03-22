@@ -130,10 +130,11 @@ a:hover{
 	bottom: 0;
 	right: 0;
 }
-.footer{
+.footer-content{
 	background-image: url(../images/footer-home-background-12.jpg);
 	background-size: cover;
-	padding-top: 12rem;
+	padding-top: 11rem;
+    padding-bottom: 20rem;
 
 }
 .about-top{
@@ -161,9 +162,6 @@ a:hover{
 }
 .about-mid .second-section{
     padding-top: 20rem;
-}
-.footer-content{
-    padding-top: 15rem;
 }
 .footer-content .number-counter{
     font-size: 60px;
