@@ -41,12 +41,18 @@ body{
     font-family: "TitilliumWeb Italic Regular";
     src: url(TitilliumWeb-ExtraLightItalic.ttf) format("truetype");
 }
-h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 1.2px;}
+h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 1px;}
+p{
+    font-size: 0.9rem;
+}
 .font-titillium-reg{
     font-family: "TitilliumWeb Regular";
 }
 .font-titillium-italic{
     font-family: "TitilliumWeb Italic Regular";
+}
+.font-roboto{
+    font-family: "Roboto Light";
 }
 .font-50{
     font-size: 50px;
@@ -175,7 +181,14 @@ a:hover{
 	background-image: url(../images/footer-home-background-12.jpg);
 	background-size: cover;
 	padding-top: 11rem;
-    padding-bottom: 25rem;
+    padding-bottom: 35rem;
+
+}
+.footer-content-home{
+	background-image: url(../images/footer-home-background-12.jpg);
+	background-size: cover;
+	padding-top: 11rem;
+    padding-bottom: 31rem;
 
 }
 .about-top{
@@ -191,7 +204,7 @@ a:hover{
     transform: translateY(-50%);
     width: 10.9vw;
 }
-.about-mid .content-mid{
+.about-mid .content-mid, .vision-mid .content-mid{
     position: absolute;
     right: 0;
     top: 0;
@@ -241,4 +254,20 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
+}
+.vision-mid{
+    background-image: url(../images/vision-mid-second-section-04-02.jpg);
+    background-size: cover;
+    padding-bottom: 29.6rem;
+}
+.vision-mid .content-wrapper{
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    padding-left: 3rem;
+}
+.vision-mid .img-icon{
+    width: 23%;
+}
+.vision-mid .second-section{
+    margin-top: 5rem;
 }
