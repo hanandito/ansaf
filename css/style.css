@@ -371,3 +371,35 @@ a:hover{
     padding-top: 9rem;
     padding-bottom: 9rem;
 }
+.buss-top{
+    background-image: url(../images/businesses-services-header-02.jpg);
+    padding-top: 12.4rem;
+    padding-bottom: 3rem;
+    background-size: 100%;
+}
+.buss-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.buss-mid .first-section{
+    background-image: url(../images/businesses-services-header-03.jpg);
+    background-size: cover;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+.thumbnail-bus-services{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.thumbnail-bus-services .items{
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+.thumbnail-bus-services .items .content{
+    background-image: url(../images/thum-services-content-bg-02.jpg);
+    background-size: cover;
+    padding: 5.5rem 5rem 6.5rem 2.5rem;
+}
