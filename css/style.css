@@ -352,3 +352,22 @@ a:hover{
 .bus-mid .bus-client{
     padding: 10rem 0;
 }
+.busd-top{
+    background-image: url(../images/businesses-mining-top-header-02.jpg);
+    padding-top: 12.4rem;
+    padding-bottom: 3rem;
+    background-size: 100%;
+}
+.busd-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.busd-mid .first-section{
+    background-image: url(../images/businesses-mining-mid-02.jpg);
+    background-size: cover;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
