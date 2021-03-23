@@ -41,7 +41,7 @@ body{
     font-family: "TitilliumWeb Italic Regular";
     src: url(TitilliumWeb-ExtraLightItalic.ttf) format("truetype");
 }
-h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 1px;}
+h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 0.3px;}
 p{
     font-size: 0.9rem;
 }
@@ -66,6 +66,9 @@ p{
 .text-blue{
     color: #435e79;
 }
+.bg-light-gray{
+    background: #efefef;
+}
 .bg-dark-blue{
     background: #0e212d;
 }
@@ -88,6 +91,14 @@ a:hover{
 .link-orange-border{
     border: 2px solid #ed6f30;
     padding: 5px 15px;
+}
+.link-gray-border{
+    border: 2px solid #666666;
+    padding: 5px 15px;
+    color: #666666;
+}
+.link-gray-border:hover{
+    color: #666666;
 }
 /* Pages */
 .home-about{
@@ -315,4 +326,29 @@ a:hover{
     top: 5rem;
     right: 3rem;
     text-align: right;
+}
+.bus-top{
+    background-image: url(../images/businesses-top-header-02.jpg);
+    padding-top: 12.6rem;
+    padding-bottom: 10.3rem;
+    background-size: 100%;
+}
+.bus-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.bus-mid .first-section{
+    background-image: url(../images/bus-mid-first-section-02.jpg);
+    background-size: cover;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+.thumbnail-bus .item{
+    padding: 6rem;
+}
+.bus-mid .bus-client{
+    padding: 10rem 0;
 }
