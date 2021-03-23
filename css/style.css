@@ -271,3 +271,48 @@ a:hover{
 .vision-mid .second-section{
     margin-top: 5rem;
 }
+.bod-top{
+    background-image: url(../images/bod-top-header-03.jpg);
+    background-size: cover;
+    padding-top: 12.8rem;
+    padding-bottom: 8.3rem;
+    background-size: 100%;
+}
+.bod-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.bod-mid .first-section{
+    padding-top: 39vh;
+    background-image: url(../images/bod-mid-second-section-03.jpg);
+    background-size: cover;
+}
+.bod-mid .first-section .portraits{
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bod-mid .first-section .portraits-wrapper{
+    margin-bottom: -245px;
+}
+.bod-mid .second-section{
+    background-image: url(../images/bod-second-section-03.jpg);
+    padding-top: 20rem;
+    background-size: cover;
+    padding-bottom: 23.7rem;
+}
+.bod-bottom-content .ornament-blue{
+    position: absolute;
+    left: 0;
+    top: -94%;
+    width: 10.9vw;
+}
+.bod-bottom-content .details-wrapper{
+    position: absolute;
+    top: 5rem;
+    right: 3rem;
+    text-align: right;
+}
