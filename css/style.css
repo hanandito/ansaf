@@ -240,8 +240,8 @@ a:hover{
     display: block;
 }
 .footer-details .fax-column{
-    border-left: 1px solid #666;
-    border-right: 1px solid #666;
+    border-left: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
 }
 .about-mid .second-section .owl-nav .owl-prev, .about-mid .second-section .owl-nav .owl-next{
     margin: 0;
