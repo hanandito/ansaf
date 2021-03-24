@@ -437,3 +437,21 @@ a:hover{
 .detail-logistic .second-section .col-lg-5{
     margin-left: 45%;
 }
+.proj-mid{
+    background-image: url(../images/projects-background-04.jpg);
+    background-size: cover;
+}
+.proj-mid .first-section .details{
+    padding-top: 12rem;
+}
+.proj-mid .second-section{
+    padding-top: 11rem;
+    padding-bottom: 22.2rem;
+}
+.proj-mid .second-section .button-link{
+    padding: .3rem 1rem;
+}
+.proj-mid .second-section .middle-button{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
