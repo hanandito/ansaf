@@ -459,3 +459,32 @@ a:hover{
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
 }
+.prevp-top{
+    background-image: url(../images/businesses-top-header-02.jpg);
+    padding-top: 12.4rem;
+    padding-bottom: 3rem;
+    background-size: 100%;
+}
+.prevp-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.prevp-mid .img-content{
+    width: 51.2vw;
+    position: absolute;
+    right: 0;
+}
+.prevp-mid .first-section .details{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-left: 6rem;
+}
+.list-prevp{
+    padding-top: 7.7rem;
+}
+.list-prevp .details{
+    font-size: 13px;
+}
