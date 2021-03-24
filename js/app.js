@@ -66,3 +66,23 @@ $('.carousel-milestone').addClass('owl-carousel owl-theme').owlCarousel({
    }
  }
 })
+$('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
+  loop: false,
+  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
+  responsive:{
+   0: {
+     items: 1,
+     dots: true,
+     nav: true
+   },
+   600: {
+     items: 1,
+     nav: false
+   },
+   1000: {
+     items: 1,
+     dots: false,
+     nav: true
+   }
+ }
+})

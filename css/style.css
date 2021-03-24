@@ -146,7 +146,7 @@ a:hover{
 		bottom: 15px;
 		left: 25px;
 }
-.home-mid-content .carousel-ourbusiness .owl-nav .owl-prev, .home-mid-content .carousel-ourbusiness .owl-nav .owl-next{
+.home-mid-content .carousel-ourbusiness .owl-nav .owl-prev, .home-mid-content .carousel-ourbusiness .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-prev{
 		margin: 0;
 }
 .home-mid-content .carousel-ourbusiness .owl-nav{
@@ -522,4 +522,37 @@ a:hover{
 }
 .csr-tab .details{
     padding: 10rem 8em;
+}
+.gallery-top{
+    background-image: url(../images/gallery-top-header-03.jpg);
+    padding-top: 12.6rem;
+    padding-bottom: 10.3rem;
+    background-size: 100%;
+}
+.gallery-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.modal-gallery{
+    max-width: 95.5%;
+}
+.modal-gallery .modal-content{
+    background: none;
+    border: none;
+}
+.modal-backdrop
+{
+    opacity: 0.85 !important;
+}
+.carousel-gallery .owl-nav{
+    position: absolute;
+    right: 0;
+    top: 85px;
+    margin-right: -48.3px;
+}
+.modal-gallery .content-wrapper{
+    margin-top: 10rem;
 }
