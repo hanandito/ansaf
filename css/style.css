@@ -556,3 +556,23 @@ a:hover{
 .modal-gallery .content-wrapper{
     margin-top: 10rem;
 }
+.contact-top{
+    background-image: url(../images/contact-header-top-bg-02.jpg);
+    padding-top: 12.6rem;
+    padding-bottom: 10.3rem;
+    background-size: 100%;
+}
+.contact-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.contact-mid .content-mid{
+    width: 65vw;
+    float: right;
+}
+.contact-mid .content-wrapper{
+    padding-top: 5rem;
+}
