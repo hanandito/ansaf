@@ -488,3 +488,38 @@ a:hover{
 .list-prevp .details{
     font-size: 13px;
 }
+.csr-top{
+    background-image: url(../images/csr-header-top-bg-08.jpg);
+    padding-top: 12.6rem;
+    padding-bottom: 10.3rem;
+    background-size: 100%;
+}
+.csr-top .elements{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10.9vw;
+}
+.csr-mid .content-mid{
+    width: 50vw;
+    float: right;
+}
+.csr-mid .content-wrapper{
+    padding-top: 10rem;
+    padding-bottom: 5.3rem;
+}
+.csr-tab .nav-link{
+    background-color: #f36b27;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 20px;
+}
+.csr-tab .nav-link.active{
+    background-color: #112939;
+    color: #fff;
+}
+.csr-tab .details{
+    padding: 10rem 8em;
+}
