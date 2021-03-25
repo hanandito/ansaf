@@ -7,6 +7,15 @@
 .navbar{								
     position: absolute;
 }
+.navbar-ansaf{
+    position: absolute;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar .logo{
+    width: 130px;
+}
 body{
     transition: all .3s;
 }
