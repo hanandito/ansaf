@@ -26,6 +26,7 @@
     position: absolute;
     top: 20px;
     padding-top: 10px;
+    z-index: 4;
 }
 .navbar-ansaf > .row > .menu-wrap > ul{
     text-align: right;
@@ -59,6 +60,9 @@
     visibility: visible;
     opacity: 1;
 } 
+.navbar-ansaf.home ul li a{
+    color: #fff;
+}
 .navbar-ansaf ul li a{
     color: #666666;
     font-family: "Roboto Light";
@@ -72,6 +76,9 @@
     background-color: #666;
     position: absolute;
     top: 0;
+}
+.navbar-ansaf .lang-ansaf .divider{
+    background-color: #fff;
 }
 body{
     transition: all .3s;
