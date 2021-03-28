@@ -24,9 +24,10 @@
     top: 20px;
     padding-top: 10px;
 }
-.navbar-ansaf > .row > .menu-wrap > ul > li{
+.navbar-ansaf > .row > .menu-wrap > ul > li, .navbar-ansaf > .row > .lang-ansaf > ul > li{
     display: inline;
     margin: 0 10px;
+    position: relative;
 }
 .navbar-ansaf ul li a{
     color: #666666;
