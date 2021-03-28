@@ -24,7 +24,7 @@
     top: 20px;
     padding-top: 10px;
 }
-.navbar-ansaf ul li{
+.navbar-ansaf > .row > .menu-wrap > ul > li{
     display: inline;
     margin: 0 10px;
 }
