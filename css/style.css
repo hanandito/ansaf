@@ -328,6 +328,7 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
+    z-index: 2;
 }
 .about-mid .content-mid, .vision-mid .content-mid{
     position: absolute;
@@ -581,6 +582,7 @@ a:hover{
 .detail-logistic{
     background-image: url(../images/businesses-logistic-second-section-02.jpg);
     background-size: cover;
+    background-position: center;
 }
 .detail-logistic .first-section{
     padding-top: 7.9rem;
@@ -596,6 +598,7 @@ a:hover{
 .proj-mid{
     background-image: url(../images/projects-background-04.jpg);
     background-size: cover;
+    background-position: bottom;
 }
 .proj-mid .first-section .details{
     padding-top: 12rem;
@@ -610,6 +613,13 @@ a:hover{
 .proj-mid .second-section .middle-button{
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
+}
+.proj-mid .projects-tractor{
+    position: absolute;
+    right: -233px;
+    bottom: 13vh;
+    width: 27vw;
+    transition: none;
 }
 .prevp-top{
     background-image: url(../images/businesses-top-header-02.jpg);
