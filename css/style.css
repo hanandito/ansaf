@@ -63,8 +63,8 @@
 .navbar-ansaf.home > .row > .menu-wrap > ul > li > a, .navbar-ansaf.home > .row > .lang-ansaf > ul > li > a{
     color: #fff;
 }
-.navbar-ansaf.home > .row > .menu-wrap > ul > li > ul > li > a{
-    font-size: 12px;
+.navbar-ansaf.home > .row > .menu-wrap > ul > li > ul > li > a, .navbar-ansaf > .row > .menu-wrap > ul > li > ul > li > a{
+    font-size: 13px;
 }
 .navbar-ansaf ul li a{
     color: #666666;
