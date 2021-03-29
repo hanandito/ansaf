@@ -60,8 +60,11 @@
     visibility: visible;
     opacity: 1;
 } 
-.navbar-ansaf.home ul li a{
+.navbar-ansaf.home > .row > .menu-wrap > ul > li > a, .navbar-ansaf.home > .row > .lang-ansaf > ul > li > a{
     color: #fff;
+}
+.navbar-ansaf.home > .row > .menu-wrap > ul > li > ul > li > a{
+    font-size: 12px;
 }
 .navbar-ansaf ul li a{
     color: #666666;
@@ -184,7 +187,14 @@ a:hover{
 }
 .carousel-homebanner .home-caption .wrapper{
     position: absolute;
-    bottom: 25%;
+    bottom: 34%;
+}
+.carousel-homebanner .owl-nav{
+    position: absolute;
+    left: 28.7vw;
+    top: 48.7vh;
+    z-index: 9;
+    transform: translate(-50%);
 }
 .bg-home-top .ornaments-blue{
     position: absolute;
@@ -223,7 +233,7 @@ a:hover{
 		bottom: 15px;
 		left: 25px;
 }
-.home-mid-content .carousel-ourbusiness .owl-nav .owl-prev, .home-mid-content .carousel-ourbusiness .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-prev{
+.home-mid-content .carousel-ourbusiness .owl-nav .owl-prev, .home-mid-content .carousel-ourbusiness .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-prev,  .carousel-homebanner .owl-nav .owl-prev,  .carousel-homebanner .owl-nav .owl-next{
 		margin: 0;
 }
 .home-mid-content .carousel-ourbusiness .owl-nav{
