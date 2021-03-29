@@ -531,6 +531,7 @@ a:hover{
     background-size: cover;
     padding-top: 9rem;
     padding-bottom: 9rem;
+    background-position: bottom;
 }
 .buss-mid .scope-services{
     position: absolute;
@@ -569,6 +570,13 @@ a:hover{
     background-size: cover;
     padding-top: 9rem;
     padding-bottom: 9rem;
+}
+.busl-mid .tractor-logistic{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    width: 42vw;
+    transition: none;
 }
 .detail-logistic{
     background-image: url(../images/businesses-logistic-second-section-02.jpg);
