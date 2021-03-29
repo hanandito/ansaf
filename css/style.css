@@ -351,6 +351,7 @@ a:hover{
     bottom: 7vh;
     right: 10vw;
     width: 139px;
+    transition: none;
 }
 .footer-content .number-counter{
     font-size: 80px;
@@ -395,6 +396,8 @@ a:hover{
     background-image: url(../images/vision-mid-second-section-04-02.jpg);
     background-size: cover;
     padding-bottom: 29.6rem;
+    position: relative;
+    background-position: bottom;
 }
 .vision-mid .content-wrapper{
     padding-top: 10rem;
@@ -406,6 +409,13 @@ a:hover{
 }
 .vision-mid .second-section{
     margin-top: 5rem;
+}
+.vision-mid .two-guy{
+    position: absolute;
+    bottom: 3%;
+    right: 7%;
+    width: 16vw;
+    transition: none;
 }
 .bod-top{
     background-image: url(../images/bod-top-header-03.jpg);
@@ -495,6 +505,13 @@ a:hover{
     background-size: cover;
     padding-top: 9rem;
     padding-bottom: 9rem;
+    background-position: bottom;
+}
+.busd-mid .guy-content{
+    position: absolute;
+    width: 27.9vw;
+    bottom: 0;
+    transition: none;
 }
 .buss-top{
     background-image: url(../images/businesses-services-header-02.jpg);
