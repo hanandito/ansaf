@@ -767,7 +767,7 @@ a:hover{
 .carousel-homebanner .owl-nav button.owl-next::after{
     display:block;
     content: '';
-    border-bottom: solid 3px #ed6f30;  
+    border-bottom: solid 4px #ed6f30;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
@@ -786,7 +786,7 @@ a:hover{
 .carousel-homebanner .owl-nav button.owl-prev::after{
     display:block;
     content: '';
-    border-bottom: solid 3px #ed6f30;  
+    border-bottom: solid 4px #ed6f30;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
@@ -805,7 +805,7 @@ a:hover{
 .carousel-ourbusiness .owl-nav button.owl-next::after{
     display:block;
     content: '';
-    border-bottom: solid 3px #666666;  
+    border-bottom: solid 4px #666666;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
@@ -824,7 +824,7 @@ a:hover{
 .carousel-ourbusiness .owl-nav button.owl-prev::after{
     display:block;
     content: '';
-    border-bottom: solid 3px #666666;  
+    border-bottom: solid 4px #666666;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
@@ -843,7 +843,7 @@ a:hover{
 .link-white-border::after{
     display:block;
     content: '';
-    border-bottom: solid 3px #fff;  
+    border-bottom: solid 4px #fff;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     margin-bottom: -7px;
@@ -865,7 +865,7 @@ a:hover{
 .link-orange-border::after{
     display:block;
     content: '';
-    border-bottom: solid 3px #ed6f30;  
+    border-bottom: solid 4px #ed6f30;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     margin-bottom: -7px;
@@ -887,7 +887,7 @@ a:hover{
 .link-gray-border::after{
     display:block;
     content: '';
-    border-bottom: solid 3px #666666;  
+    border-bottom: solid 4px #666666;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     margin-bottom: -7px;
