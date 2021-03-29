@@ -318,13 +318,13 @@ a:hover{
 }
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
-    padding-top: 10.8rem;
-    padding-bottom: 6.3rem;
+    padding-top: 12.4rem;
+    padding-bottom: 5.1rem;
     background-size: 100%;
 }
 .about-top .elements{
     position: absolute;
-    top: 238px;
+    top: 215px;
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
@@ -383,7 +383,7 @@ a:hover{
 .vision-top{
     background-image: url(../images/vision-top-header-02.jpg);
     padding-top: 12.8rem;
-    padding-bottom: 8.3rem;
+    padding-bottom: 8.5rem;
     background-size: 100%;
 }
 .vision-top .elements{
@@ -392,6 +392,7 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
+    z-index: 2;
 }
 .vision-mid{
     background-image: url(../images/vision-mid-second-section-04-02.jpg);
@@ -475,6 +476,7 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
+    z-index: 2;
 }
 .bus-mid .first-section{
     background-image: url(../images/bus-mid-first-section-02.jpg);
@@ -500,6 +502,7 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
+    z-index: 2;
 }
 .busd-mid .first-section{
     background-image: url(../images/businesses-mining-mid-02.jpg);
@@ -526,6 +529,7 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
+    z-index: 1;
 }
 .buss-mid .first-section{
     background-image: url(../images/businesses-services-header-03.jpg);
@@ -565,6 +569,7 @@ a:hover{
     right: 0;
     transform: translateY(-50%);
     width: 10.9vw;
+    z-index: 1;
 }
 .busl-mid .first-section{
     background-image: url(../images/business-logistics-header-03.jpg);
