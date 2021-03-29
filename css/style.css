@@ -532,6 +532,12 @@ a:hover{
     padding-top: 9rem;
     padding-bottom: 9rem;
 }
+.buss-mid .scope-services{
+    position: absolute;
+    width: 40vw;
+    bottom: 0;
+    transition: none;
+}
 .thumbnail-bus-services{
     padding-top: 10rem;
     padding-bottom: 10rem;
