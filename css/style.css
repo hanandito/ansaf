@@ -314,6 +314,7 @@ a:hover{
 	background-size: cover;
 	padding-top: 11rem;
     padding-bottom: 31rem;
+    background-position: center;
 
 }
 .about-top{
@@ -796,6 +797,45 @@ a:hover{
     transform: scaleX(1);
     transform-origin: 100% 50%;
 }
+/* Carousel */
+.carousel-ourbusiness .owl-nav .owl-next{
+    display:inline-block;
+    margin:0;
+}
+.carousel-ourbusiness .owl-nav button.owl-next::after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #666666;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.carousel-ourbusiness .owl-nav .owl-next::after{
+    transform-origin: 100% 50%;
+}
+.carousel-ourbusiness .owl-nav .owl-next:hover::after{
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+}
+
+.carousel-ourbusiness .owl-nav .owl-prev{
+    display:inline-block;
+    margin:0;
+}
+.carousel-ourbusiness .owl-nav button.owl-prev::after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #666666;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.carousel-ourbusiness .owl-nav .owl-prev::after{
+    transform-origin: 0% 50%;
+}
+.carousel-ourbusiness .owl-nav .owl-prev:hover::after{
+    transform: scaleX(1);
+    transform-origin: 100% 50%;
+}
+/* Button */
 .link-white-border{
     display:inline-block;
     margin:0;
