@@ -342,8 +342,15 @@ a:hover{
 .about-mid .second-section{
     background-image: url(../images/about-mid-second-section-04.jpg);
     padding-top: 11rem;
-    padding-bottom: 40.2rem;
-    background-size: cover;;
+    padding-bottom: 34.7rem;
+    background-size: cover;
+    background-position: bottom;
+}
+.about-mid .guy{
+    position: absolute;
+    bottom: 7vh;
+    right: 10vw;
+    width: 139px;
 }
 .footer-content .number-counter{
     font-size: 80px;
