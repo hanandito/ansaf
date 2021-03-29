@@ -233,9 +233,11 @@ a:hover{
 .home-mid-content .bg-mid-value{
     background-image: url(../images/home-mid-background-08-01.jpg);
     background-size: cover;
-    height: 1024px;
-    padding-top: 160px;
+    height: 64.2rem;
+    padding-top: 7rem;
     background-position: bottom;
+    position: relative;
+    padding-bottom: 57rem;
 }
 .home-mid-content .thumbnail .title{
 		position: absolute;
@@ -262,6 +264,19 @@ a:hover{
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+}
+.home-mid-content .bg-mid-value .cloud{
+    position: absolute;
+    left: 72px;
+    top: 370px;
+    transition: none;
+}
+.home-mid-content .bg-mid-value .tractors{
+    position: absolute;
+    bottom: 7vh;
+    width: 40vw;
+    left: -5vw;
+    transition: none;
 }
 .bottom-content .news-section .img-content{
 	width: 100%;
