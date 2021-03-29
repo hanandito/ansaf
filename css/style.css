@@ -307,7 +307,7 @@ a:hover{
 	background-size: cover;
 	padding-top: 11rem;
     padding-bottom: 35rem;
-
+    background-position: center;
 }
 .footer-content-home{
 	background-image: url(../images/footer-home-background-12.jpg);
