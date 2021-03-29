@@ -209,16 +209,18 @@ a:hover{
     width: 10.9vw;
 }
 .home-about .tractors{
-		position: absolute;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 500px;
+    transition: none;
 }
 .home-about .guy{
     position: absolute;
     bottom: 0;
     right: 0;
     width: 510px;
+    transition: none;
 }
 .home-mid-content .image-thumbnail{
     overflow: hidden;
@@ -232,7 +234,8 @@ a:hover{
     background-image: url(../images/home-mid-background-08-01.jpg);
     background-size: cover;
     height: 1024px;
-		padding-top: 160px;
+    padding-top: 160px;
+    background-position: bottom;
 }
 .home-mid-content .thumbnail .title{
 		position: absolute;
