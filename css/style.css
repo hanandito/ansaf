@@ -464,6 +464,9 @@ a:hover{
     right: 3rem;
     text-align: right;
 }
+.busl-top a, .busd-top a, .busm-top a,.prevp-top a{
+    color: #666666;
+}
 .bus-top{
     background-image: url(../images/businesses-top-header-02.jpg);
     padding-top: 12.6rem;
