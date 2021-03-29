@@ -80,7 +80,7 @@
     position: absolute;
     top: 0;
 }
-.navbar-ansaf .lang-ansaf .divider{
+.navbar-ansaf.home .lang-ansaf .divider{
     background-color: #fff;
 }
 body{
