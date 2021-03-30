@@ -114,9 +114,9 @@ $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
  var a = 0;
 $(window).scroll(function() {
 
-  var oTop = $('#counter').offset().top - window.innerHeight;
+  var oTop = $('.counter-wrapper').offset().top - window.innerHeight;
   if (a == 0 && $(window).scrollTop() > oTop) {
-    $('.counter-value').each(function() {
+    $('.number-counter').each(function() {
       var $this = $(this),
         countTo = $this.attr('data-count');
       $({

@@ -317,6 +317,9 @@ a:hover{
     background-position: center;
 
 }
+.footer-content-home .number-counter::after {
+    content: '+';
+}
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
     padding-top: 12.4rem;
