@@ -759,6 +759,9 @@ a:hover{
 .section-forms-ansaf{
     padding: 7rem 3rem;
 }
+.owl-theme .owl-nav [class*="owl-"]:hover{
+    background: none;
+}
 /* Button Animation */
 .carousel-homebanner .owl-nav .owl-next{
     display:inline-block;
