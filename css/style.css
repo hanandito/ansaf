@@ -346,8 +346,8 @@ a:hover{
 }
 .about-mid .second-section{
     background-image: url(../images/about-mid-second-section-04.jpg);
-    padding-top: 11rem;
-    padding-bottom: 34.7rem;
+    padding-top: 34vh;
+    padding-bottom: 87vh;
     background-size: cover;
     background-position: bottom;
 }
@@ -455,6 +455,7 @@ a:hover{
     padding-top: 20rem;
     background-size: cover;
     padding-bottom: 23.7rem;
+    background-position: bottom;
 }
 .bod-bottom-content .ornament-blue{
     position: absolute;
