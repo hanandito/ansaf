@@ -926,7 +926,7 @@ a:hover{
     .carousel-homebanner .wrapper{
         position: absolute;
         left: 0;
-        bottom: 2rem;
+        bottom: 5rem;
     }
     .home-about .guy {
         right: -120px;
