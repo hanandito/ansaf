@@ -10,7 +10,7 @@
      0: {
        items: 1,
        dots: true,
-       nav: false
+       nav: false,
      },
      600: {
        items: 1,

@@ -959,4 +959,7 @@ a:hover{
     .carousel-homebanner.owl-theme .owl-dots .owl-dot.active span{
         background: #fff;
     }
+    .home-mid-content .wrapper img{
+        width: 44px !important;
+    }
 }
