@@ -913,6 +913,9 @@ a:hover{
     h1, h2, h3, h4, h5, h6, p, a {
         letter-spacing: 0.1px;
     }
+    .bg-home-top{
+        overflow-x: hidden;
+    }
     .bg-home-top .ornaments-blue {
         right: 0;
         top: auto;
@@ -943,9 +946,17 @@ a:hover{
     .carousel-homebanner .owl-dots{
         position: absolute;
         left: 9%;
-        bottom: 10px;
+        bottom: 4rem;
     }
     .footer-details .logo {
         width: 30%;
+    }
+    .carousel-homebanner .owl-dots .owl-dot span{
+        background: none;
+        border: 2px solid #fff;
+        margin: 3px;
+    }
+    .carousel-homebanner.owl-theme .owl-dots .owl-dot.active span{
+        background: #fff;
     }
 }
