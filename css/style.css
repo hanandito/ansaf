@@ -914,14 +914,14 @@ a:hover{
         letter-spacing: 0.1px;
     }
     .bg-home-top{
-        overflow-x: hidden;
+        width: 100%;
     }
     .bg-home-top .ornaments-blue {
         right: 0;
         top: auto;
         width: 18.9vw;
         z-index: 2;
-        bottom: -155px;
+        bottom: -191px;
     }
     .carousel-homebanner .slide-number {
         display: none;
