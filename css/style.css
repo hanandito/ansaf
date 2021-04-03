@@ -928,7 +928,7 @@ a:hover{
     }
     .carousel-homebanner .wrapper{
         position: absolute;
-        left: 0;
+        left: 15px;
         bottom: 5rem;
     }
     .home-about .guy {
@@ -961,5 +961,10 @@ a:hover{
     }
     .home-mid-content .wrapper img{
         width: 44px !important;
+    }
+    .wrapper .inline-block img{
+        width: 30px;
+        object-fit: cover;
+        object-position: right;
     }
 }
