@@ -1027,4 +1027,8 @@ a:hover{
     .footer-details .fax-column .fax-details{
         text-align: left;
     }
+    .bottom-content .ornament-blue {
+        top: -26.7%;
+        width: 18.9vw;
+    }
 }
