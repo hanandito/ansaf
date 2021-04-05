@@ -910,6 +910,9 @@ a:hover{
     transform-origin: 0% 50%;
 }
 @media screen and (max-width: 414px) {
+    .font-75{
+        font-size: 50px;
+    }
     h1, h2, h3, h4, h5, h6, p, a {
         letter-spacing: 0.1px;
     }
@@ -959,9 +962,69 @@ a:hover{
     .carousel-homebanner.owl-theme .owl-dots .owl-dot.active span{
         background: #fff;
     }
-    .wrapper .inline-block img{
+    .wrapper .inline-block img, .content-wrapper .inline-block img{
         width: 30px;
         object-fit: cover;
         object-position: right;
+    }
+    .home-mid-content .bg-mid-value{
+        background-image: url(../images/home-our-business-mobile-bg-16.jpg);
+        height: 50rem;
+        padding-bottom: 46rem;
+        overflow-x: hidden;
+    }
+    .home-mid-content .bg-mid-value .cloud-mobile{
+        position: absolute;
+        right: -190px;
+        top: 0;
+        transition: none;
+    }
+    .home-mid-content .bg-mid-value .tractors{
+        bottom: 1vh;
+        left: -210px;
+        width: 70vw;
+    }
+    .news-section-mobile{
+        height: 710px;
+    }
+    .news-section-mobile .details{
+        position: absolute;
+        background-image: url(../images/news-background-detail-wrapper-15.png);
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        padding-top: 10rem;
+        bottom: 0;
+        padding-bottom: 5rem;
+    }
+    .news-section-mobile .details .content-wrapper a{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-content-home {
+        background-image: url(../images/footer-home-background-mobile-15.jpg);
+        padding-top: 7rem;
+        padding-bottom: 8rem;
+    }
+    .footer-details{
+        padding: 0 35px;
+    }
+    .footer-details .logo {
+        float: left;
+    }
+    .footer-details .fax-column {
+        border: none;
+    }
+    .footer-details .link-orange-border{
+        width: 100%;
+        text-align: center;
+        padding: 10px 15px;
+    }
+    .footer-details .link-socmed a{
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+    .footer-details .fax-column .fax-details{
+        text-align: left;
     }
 }

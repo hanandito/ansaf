@@ -24,25 +24,25 @@
    }
  })
  $('.carousel-ourbusiness').addClass('owl-carousel owl-theme').owlCarousel({
-  stagePadding: 40,
   loop:false,
   margin: 17,
   navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
   items:2,
   responsive:{
    0: {
+    stagePadding: 27,
      items: 1,
-     dots: true,
-     nav: true
+     dots: false,
+     nav: false
    },
    600: {
      items: 1,
      nav: false
    },
    1000: {
+    stagePadding: 40,
      items: 2,
-     dots: false,
-     nav: true
+     dots: false
    }
  }
 })
