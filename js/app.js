@@ -30,7 +30,7 @@
   items:2,
   responsive:{
    0: {
-    stagePadding: 27,
+     stagePadding: 27,
      items: 1,
      dots: false,
      nav: false
@@ -67,6 +67,50 @@ $('.carousel-milestone').addClass('owl-carousel owl-theme').owlCarousel({
    }
  }
 })
+$('.carousel-mission-mobile').addClass('owl-carousel owl-theme').owlCarousel({
+  loop:false,
+  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
+  items:2,
+  responsive:{
+   0: {
+     items: 1,
+     dots: true,
+     nav: true
+   },
+   600: {
+     items: 1,
+     nav: false
+   },
+   1000: {
+     items: 1,
+     dots: false,
+     nav: true
+   }
+ }
+})
+$('.carousel-bod').addClass('owl-carousel owl-theme').owlCarousel({
+  loop:false,
+  margin: 45,
+  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
+  items:2,
+  responsive:{
+   0: {
+     stagePadding: 60,
+     items: 1,
+     dots: false,
+     nav: false
+   },
+   600: {
+     items: 1,
+     nav: false
+   },
+   1000: {
+     items: 1,
+     dots: false,
+     nav: true
+   }
+ }
+})
 $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
   navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
@@ -88,8 +132,6 @@ $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
  }
 })
  /*Animation: Moving Ornament on Scroll*/
- $(document).ready(function(){
-
 
   $(window).scroll(function(){
     windowTop = $(window).scrollTop();
@@ -109,7 +151,6 @@ $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
       'transform':'translateY('+(windowTop) * -0.1 +'px)'
     });
   });
-});
  // 
  var a = 0;
 $(window).scroll(function() {

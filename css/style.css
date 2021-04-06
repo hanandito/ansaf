@@ -323,7 +323,7 @@ a:hover{
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
     padding-top: 12.4rem;
-    padding-bottom: 5.1rem;
+    padding-bottom: 2.3rem;
     background-size: 100%;
 }
 .about-top .elements{
@@ -383,6 +383,7 @@ a:hover{
     background-size: cover;
     padding-top: 12rem;
     padding-bottom: 12rem;
+    text-align: right;
 }
 .vision-top{
     background-image: url(../images/vision-top-header-02.jpg);
@@ -415,6 +416,9 @@ a:hover{
 }
 .vision-mid .second-section{
     margin-top: 5rem;
+}
+.vision-mid .second-section h3{
+    text-align: center;
 }
 .vision-mid .two-guy{
     position: absolute;
@@ -491,6 +495,7 @@ a:hover{
     background-size: cover;
     padding-top: 9rem;
     padding-bottom: 9rem;
+    text-align: center;
 }
 .thumbnail-bus .item{
     padding: 6rem;
@@ -910,6 +915,9 @@ a:hover{
     transform-origin: 0% 50%;
 }
 @media screen and (max-width: 414px) {
+    p {
+        font-size: 0.8rem;
+    }
     .font-75{
         font-size: 50px;
     }
@@ -1030,5 +1038,205 @@ a:hover{
     .bottom-content .ornament-blue {
         top: -26.7%;
         width: 18.9vw;
+    }
+    .about-top{
+        background-image: url(../images/about-top-header-mobile-04.jpg);
+        padding-top: 29.9rem;
+        padding-bottom: 5rem;
+    }
+    .about-top .elements {
+        top: 247px;
+        width: 20vw;
+    }
+    .about-mid .content-wrapper {
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .about-mid .second-section{
+        background-image: url(../images/about-mid-second-section-mobile-06-05.jpg);
+        padding-top: 14vh;
+        padding-bottom: 60vh;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+    .about-mid .ornament-mobile{
+        position: absolute;
+        bottom: 5vh;
+        right: 55vw;
+        transition: none;
+    }
+    .about-bottom-content {
+        background-image: url(../images/bottom-about-bottom-content-mobile-06.jpg);
+        text-align: center;
+        padding-top: 7rem;
+        padding-bottom: 18rem;
+    }
+    .footer-content {
+        background-image: url(../images/footer-background-mobile-15-05.jpg);
+        padding-top: 6rem;
+        padding-bottom: 13rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .footer-content a{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .carousel-milestone .title-year{
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .carousel-milestone .owl-dots .owl-dot span, .carousel-mission-mobile .owl-dots .owl-dot span {
+        background: none;
+        border: 2px solid #fff;
+        margin: 3px;
+    }
+    .carousel-milestone.owl-theme .owl-dots .owl-dot.active span,.carousel-mission-mobile .owl-dots .owl-dot.active span {
+        background: #fff;
+    }
+    .about-mid .second-section .owl-nav{
+        position: static;
+    }
+    .about-mid .second-section .owl-nav .owl-next{
+        position: absolute;
+        right: 0;
+        top: 59px;
+    }
+    .about-mid .second-section .owl-nav .owl-prev{
+        position: absolute;
+        left: 0;
+        top: 59px;
+    }
+    .about-mid .second-section .owl-dots{
+        position: absolute;
+        top: -31px;
+        right: 0;
+    }
+    .vision-top{
+        background-image: url(../images/vision-top-header-mobile-06.jpg);
+        padding-top: 32.8rem;
+    }
+    .vision-top .elements {
+        width: 20vw;
+    }
+    .vision-mid {
+        background-image: url(../images/vision-mid-second-section-mobile-07-06.jpg);
+        padding-bottom: 13rem;
+    }
+    .vision-mid .second-section {
+        margin-top: 10rem;
+    }
+    .vision-mid .content-wrapper {
+        padding-top: 5rem;
+        padding-bottom: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .carousel-mission-mobile .img-icon{
+        width: 40% !important;
+        margin: auto;
+    }
+    .vision-mid .second-section h3{
+        text-align: left;
+    }
+    .vision-mid .second-section{
+        padding-left: 1rem;
+    }
+    .vision-mid .two-guy {
+        right: -140px;
+        width: 29vw;
+    }
+    .carousel-mission-mobile .owl-nav .owl-prev{
+        position: absolute;
+        left: 0;
+        top: 83px;
+    }
+    .carousel-mission-mobile .owl-nav .owl-next{
+        position: absolute;
+        right: 0;
+        top: 83px;
+    }
+    .carousel-mission-mobile .owl-dots{
+        position: absolute;
+        right: 0;
+        top: -34px;
+    }
+    .bod-top {
+        background-image: url(../images/bod-top-header-mobile-03.jpg);
+        padding-top: 32.8rem;
+    }
+    .bod-top .elements {
+        width: 20vw;
+    }
+    .bod-mid .first-section{
+        background: #0f212d;
+    }
+    .bod-mid .first-section .portraits {
+        width: 100%;
+    }
+    .bod-mid .carousel-bod{
+        margin-bottom: -220px;
+    }
+    .carousel-bod .number{
+        position: absolute;
+        right: 0;
+    }
+    .bod-mid .second-section {
+        background-image: url(../images/bod-second-section-mobile-03.jpg);
+        padding-bottom: 3.7rem;
+    }
+    .bod-bottom-content .ornament-blue {
+        width: 20vw;
+        top: -55vw;
+    }
+    .bod-bottom-content .details-wrapper{
+        position: absolute;
+        top: auto;
+        right: auto;
+        text-align: left;
+        bottom: 100px;
+        left: 40px;
+    }
+    .bod-bottom-content .font-50{
+        font-size: 40px;
+        margin-bottom: -18px;
+    }
+    .bus-top {
+        background-image: url(../images/businesses-top-header-mobile-02.jpg);
+        padding-top: 32.6rem;
+    }
+    .bus-top .elements {
+        width: 20vw;
+    }
+    .bus-mid .first-section {
+        background-image: url(../images/bus-mid-first-section-mobile-03.jpg);
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: left;
+    }
+    .thumbnail-bus{
+        padding-top: 5rem;
+    }
+    .thumbnail-bus .item {
+        padding: 2.5rem;
+    }
+    .thumbnail-bus a{
+        display: block !important;
+        text-align: center;
+    }
+    .bus-mid .bus-client img{
+        width: 75%;
+    }
+    .busd-top{
+        background-image: url(../images/businesses-mining-top-header-02-04.jpg);
+        padding-top: 32.3rem;
+        padding-bottom: 9rem;
+    }
+    .busd-top .elements{
+        width: 20vw;
+        top: 217px;
     }
 }
