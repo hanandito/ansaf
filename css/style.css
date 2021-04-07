@@ -136,6 +136,12 @@ p{
 .font-75{
     font-size: 75px;
 }
+.font-100{
+    font-size: 100px;
+}
+.font-80{
+    font-size: 80px;
+}
 .text-orange{
     color: #ed6f30;
 }
@@ -247,7 +253,7 @@ a:hover{
 		bottom: 15px;
 		left: 25px;
 }
-.home-mid-content .carousel-ourbusiness .owl-nav .owl-prev, .home-mid-content .carousel-ourbusiness .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-prev,  .carousel-homebanner .owl-nav .owl-prev,  .carousel-homebanner .owl-nav .owl-next{
+.home-mid-content .carousel-ourbusiness .owl-nav .owl-prev, .home-mid-content .carousel-ourbusiness .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-next, .carousel-gallery .owl-nav .owl-prev,  .carousel-homebanner .owl-nav .owl-prev,  .carousel-homebanner .owl-nav .owl-next,  .carousel-mobile-projects-list .owl-nav .owl-next, .carousel-mobile-projects-list .owl-nav .owl-prev{
 		margin: 0;
 }
 .home-mid-content .carousel-ourbusiness .owl-nav{
@@ -624,6 +630,11 @@ a:hover{
 .proj-mid .second-section{
     padding-top: 11rem;
     padding-bottom: 22.2rem;
+    text-align: center;
+}
+.proj-mid .second-section .content-wrapper{
+    align-items: center;
+    justify-content: center;
 }
 .proj-mid .second-section .button-link{
     padding: .3rem 1rem;
@@ -1235,8 +1246,122 @@ a:hover{
         padding-top: 32.3rem;
         padding-bottom: 9rem;
     }
-    .busd-top .elements{
+    .busd-top .elements, .buss-top .elements, .busl-top .elements, .prevp-top .elements{
         width: 20vw;
         top: 217px;
+    }
+    .busd-mid .first-section, .buss-mid .first-section, .busl-mid .first-section {
+        background-image: url(../images/businesses-mining-mid-mobile-04.jpg);
+        padding-bottom: 14rem;
+    }
+    .busd-mid .guy-content, .buss-mid .scope-services {
+        width: 47.9vw;
+        left: -70px;
+    }
+    .buss-top{
+        background-image: url(../images/businesses-services-header-mobile-04.jpg);
+        padding-top: 32.3rem;
+        padding-bottom: 9rem;
+    }
+    .thumbnail-bus-services .items {
+        padding-left: 2rem;
+    }
+    .thumbnail-bus-services .items .content{
+        padding: 2.8rem 1.3rem 2.1rem 1.3rem;
+    }
+    .thumbnail-bus-services {
+        padding-top: 5rem;
+        padding-bottom: 0rem;
+    }
+    .busl-top {
+        background-image: url(../images/business-logistics-header-mobile-04.jpg) ;
+        padding-top: 32.3rem;
+        padding-bottom: 9rem;
+    }
+    .detail-logistic {
+        background-image: url(../images/businesses-logistic-second-section-mobile-04.jpg);
+    }
+    .detail-logistic .second-section .col-lg-5 {
+        margin-left: 0;
+    }
+    .detail-logistic .first-section {
+        padding-bottom: 4rem;
+    }
+    .busd-mid .first-section, .buss-mid .first-section, .busl-mid .first-section {
+        overflow: hidden;
+    }
+    .proj-mid {
+        background-image: url(../images/projects-background-mobile-02.jpg);
+    }
+    .proj-mid .details{
+        padding-left: 2rem;
+    }
+    .proj-mid .second-section{
+        text-align: left;
+        padding-top: 5rem;
+        padding-bottom: 9rem;
+    }
+    .proj-mid .second-section .content-wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    .proj-mid .second-section .content-wrapper{
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+    .proj-mid .second-section .button-link {
+        padding: .6rem 1rem;
+    }
+    .proj-mid .second-section .col-lg-12{
+        padding-right: 2rem;
+    }
+    .proj-mid .first-section .details {
+        padding-top: 4rem;
+    }
+    .prevp-top {
+        background-image: url(../images/businesses-top-header-mobile-02.jpg);
+        padding-top: 32.3rem;
+        padding-bottom: 9rem;
+    }
+    .prevp-top .elements{
+        z-index: 3;
+    }
+    .prevp-mid .img-content{
+        z-index: 0;
+        width: 100%;
+        position: relative;
+    }
+    .prevp-mid .first-section .details {
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+        padding-left: 2rem;
+    }
+    .prevp-mid .first-section .details h2 {
+        margin-bottom: -20px;
+    }
+    .list-prevp {
+        padding-top: 4rem;
+    }
+    .carousel-mobile-projects-list .owl-nav{
+        position: absolute;
+        bottom: 30px;
+    }
+    .prevp-top.mobile-pros{
+        padding-bottom: 6.5rem;
+    }
+    .csr-top {
+        background-image: url(../images/csr-header-top-bg-mobile-06.jpg);
+        padding-top: 32.6rem;
+    }
+    .csr-top .elements {
+        width: 20vw;
+        z-index: 2;
+    }
+    .csr-mid .content-mid {
+        width: 100%;
+        float: none;
+        position: static;
+        z-index: 0;
     }
 }
