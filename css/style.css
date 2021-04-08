@@ -328,7 +328,7 @@ a:hover{
 }
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
-    padding-top: 12.4rem;
+    padding-top: 10.4rem;
     padding-bottom: 2.3rem;
     background-size: 100%;
 }
@@ -393,7 +393,7 @@ a:hover{
 }
 .vision-top{
     background-image: url(../images/vision-top-header-02.jpg);
-    padding-top: 12.8rem;
+    padding-top: 10.5rem;
     padding-bottom: 8.5rem;
     background-size: 100%;
 }
@@ -436,7 +436,7 @@ a:hover{
 .bod-top{
     background-image: url(../images/bod-top-header-03.jpg);
     background-size: cover;
-    padding-top: 12.8rem;
+    padding-top: 10.8rem;
     padding-bottom: 8.3rem;
     background-size: 100%;
 }
@@ -484,7 +484,7 @@ a:hover{
 }
 .bus-top{
     background-image: url(../images/businesses-top-header-02.jpg);
-    padding-top: 12.6rem;
+    padding-top: 10.6rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
