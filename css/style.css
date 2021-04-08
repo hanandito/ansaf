@@ -1087,7 +1087,7 @@ a:hover{
         background-image: url(../images/home-our-business-mobile-bg-16.jpg);
         height: 50rem;
         padding-bottom: 46rem;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .home-mid-content .bg-mid-value .cloud-mobile{
         position: absolute;
