@@ -117,8 +117,8 @@ $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
   responsive:{
    0: {
      items: 1,
-     dots: true,
-     nav: true
+     dots: false,
+     nav: false
    },
    600: {
      items: 1,
