@@ -940,10 +940,9 @@ a:hover{
     }
     .bg-home-top .ornaments-blue {
         right: 0;
-        top: auto;
+        top: 74%;
         width: 18.9vw;
         z-index: 2;
-        bottom: -191px;
     }
     .carousel-homebanner .slide-number {
         display: none;
@@ -1024,6 +1023,7 @@ a:hover{
         background-image: url(../images/footer-home-background-mobile-15.jpg);
         padding-top: 7rem;
         padding-bottom: 8rem;
+        background-position: bottom;
     }
     .footer-details{
         padding: 0 35px;
@@ -1090,6 +1090,7 @@ a:hover{
         padding-bottom: 13rem;
         padding-left: 2rem;
         padding-right: 2rem;
+        background-position: bottom;
     }
     .footer-content a{
         display: block;
@@ -1363,5 +1364,22 @@ a:hover{
         float: none;
         position: static;
         z-index: 0;
+    }
+    .csr-mid .content-wrapper{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 3.3rem;
+    }
+    .csr-tab .details {
+        padding: 0 2rem;
+    }
+    .csr-tab .tab-content img{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .csr-tab .nav-link {
+        padding: 14px 9px;
+        font-size: 0.7rem;
     }
 }
