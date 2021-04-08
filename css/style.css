@@ -1145,8 +1145,9 @@ a:hover{
         text-align: left;
     }
     .bottom-content .ornament-blue {
-        top: -26.7%;
         width: 18.9vw;
+        top: 0%;
+        transform: translateY(-50%);
     }
     .about-top{
         background-image: url(../images/about-top-header-mobile-04.jpg);
