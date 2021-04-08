@@ -1512,4 +1512,71 @@ a:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
+    .menu{
+        position: absolute;
+        right: 20px;
+    }
+    .navbar-ansaf .logo {
+        width: 100px;
+    }
+    .side-menu{
+        background-color: #fff;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        padding: 2rem;
+        right: -100%;
+        transition: all .5s;
+    }
+    .side-menu.active{
+        right: 0;
+    }
+    .side-menu > ul {
+        padding-top: 5rem;
+    }
+    .side-menu ul{
+        list-style: none;
+        padding-left: 15px;
+    }
+    .side-menu ul li{
+        margin: 7px 0;
+    }
+    .side-menu ul li:hover{
+        color: #90A7B7;
+    }
+    .side-menu ul ul{
+        display: none;
+    }
+    .side-menu ul li:hover ul{
+        display: block;
+    }
+    .home-mid-content .image-thumbnail .shadow, .bg-mid-value .shadow{
+        display: none;
+    }
+    .home-mid-content .thumbnail .title {
+        position: static;
+        margin: 1.5rem 0;
+    }
+    .home-mid-content .thumbnail .title h6 {
+        color: #000 !important;
+    }
+    .home-mid-content .thumbnail .title .slide-number{
+        position: absolute;
+        right: 0;
+        bottom: 17px;
+    }
+    .bg-mid-value .title-thumbnail {
+        position: relative;
+        transform: none;
+        left: 0;
+        text-align: left;
+        margin-top: 40px;
+    }
+    .bg-mid-value .slide-number {
+        position: absolute;
+        right: 0;
+        text-align: left;
+        bottom: 15px;
+    }
 }

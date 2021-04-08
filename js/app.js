@@ -1,4 +1,12 @@
-    //  Favor
+$(document).ready(function() {
+  $('.menu-icon').click(function() {
+    $('.side-menu').addClass("active");
+  })
+  $('.close-menu-icon').click(function() {
+    $('.side-menu').removeClass("active");
+  })
+});
+  //  Favor
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
     animateOut: 'fadeOut',
     navText: ["<img src='images/chevron-left-edge-08.png'>","<img src='images/chevron-right-edge-08.png'>"],
