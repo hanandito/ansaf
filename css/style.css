@@ -382,7 +382,7 @@ a:hover{
 .about-mid .second-section .owl-nav{
     position: absolute;
     left: 0;
-    top: 40px;
+    top: 70px;
 }
 .about-bottom-content{
     background-image: url(../images/bottom-about-bottom-content-05.jpg);
@@ -479,7 +479,7 @@ a:hover{
     right: 3rem;
     text-align: right;
 }
-.busl-top a, .busd-top a, .busm-top a,.prevp-top a{
+.busl-top a, .busd-top a, .buss-top a, .busm-top a,.prevp-top a{
     color: #666666;
 }
 .bus-top{
@@ -618,6 +618,12 @@ a:hover{
 }
 .detail-logistic .second-section .col-lg-5{
     margin-left: 45%;
+}
+.detail-logistic .second-section .guy{
+    position: absolute;
+    left: 7%;
+    bottom: -290px;
+    transition: none;
 }
 .proj-mid{
     background-image: url(../images/projects-background-04.jpg);
@@ -1607,5 +1613,10 @@ a:hover{
     .carousel-milestone .owl-nav .owl-prev:active::after {
         transform: none;
         transform-origin: 100% 50%;
+    }
+    .detail-logistic .second-section .guy {
+        left: -85%;
+        bottom: -350px;
+        width: 21vw;
     }
 }

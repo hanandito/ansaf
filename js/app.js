@@ -50,7 +50,8 @@ $(document).ready(function() {
    1000: {
     stagePadding: 40,
      items: 2,
-     dots: false
+     dots: false,
+     nav: true
    }
  }
 })
