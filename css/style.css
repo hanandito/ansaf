@@ -1585,4 +1585,10 @@ a:hover{
         bottom: 70px;
         color: #fff;
     }
+    .carousel-milestone .owl-nav button.owl-next::after{
+        width: 100%;
+    }
+    .carousel-milestone .owl-nav button.owl-prev::after{
+        width: 100%;
+    }
 }
