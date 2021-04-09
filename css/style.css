@@ -1028,7 +1028,7 @@ a:hover{
         font-size: 0.9rem;
     }
     .font-75{
-        font-size: 50px;
+        font-size: 70px;
     }
     h1, h2, h3, h4, h5, h6, p, a {
         letter-spacing: 0.1px;
@@ -1199,6 +1199,7 @@ a:hover{
         text-align: center;
         margin-top: 4rem;
         margin-bottom: 4rem;
+        font-size: 3.2rem;
     }
     .carousel-milestone .owl-dots .owl-dot span, .carousel-mission-mobile .owl-dots .owl-dot span {
         background: none;
@@ -1214,12 +1215,12 @@ a:hover{
     .about-mid .second-section .owl-nav .owl-next{
         position: absolute;
         right: 0;
-        top: 64px;
+        top: 73px;
     }
     .about-mid .second-section .owl-nav .owl-prev{
         position: absolute;
         left: 0;
-        top: 64px;
+        top: 73px;
     }
     .about-mid .second-section .owl-dots{
         position: absolute;
