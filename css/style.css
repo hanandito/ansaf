@@ -1206,7 +1206,7 @@ a:hover{
         text-align: center;
         margin-top: 4rem;
         margin-bottom: 4rem;
-        font-size: 3.2rem;
+        font-size: 3.7rem;
     }
     .carousel-milestone .owl-dots .owl-dot span, .carousel-mission-mobile .owl-dots .owl-dot span {
         background: none;
@@ -1222,12 +1222,12 @@ a:hover{
     .about-mid .second-section .owl-nav .owl-next{
         position: absolute;
         right: 0;
-        top: 73px;
+        top: 80px;
     }
     .about-mid .second-section .owl-nav .owl-prev{
         position: absolute;
         left: 0;
-        top: 73px;
+        top: 80px;
     }
     .about-mid .second-section .owl-dots{
         position: absolute;
