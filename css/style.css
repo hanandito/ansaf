@@ -1214,12 +1214,12 @@ a:hover{
     .about-mid .second-section .owl-nav .owl-next{
         position: absolute;
         right: 0;
-        top: 59px;
+        top: 64px;
     }
     .about-mid .second-section .owl-nav .owl-prev{
         position: absolute;
         left: 0;
-        top: 59px;
+        top: 64px;
     }
     .about-mid .second-section .owl-dots{
         position: absolute;
