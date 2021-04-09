@@ -511,7 +511,7 @@ a:hover{
 }
 .busd-top{
     background-image: url(../images/businesses-mining-top-header-02.jpg);
-    padding-top: 12.4rem;
+    padding-top: 10.4rem;
     padding-bottom: 3rem;
     background-size: 100%;
 }
@@ -538,7 +538,7 @@ a:hover{
 }
 .buss-top{
     background-image: url(../images/businesses-services-header-02.jpg);
-    padding-top: 12.4rem;
+    padding-top: 10.4rem;
     padding-bottom: 3rem;
     background-size: 100%;
 }
@@ -578,7 +578,7 @@ a:hover{
 }
 .busl-top{
     background-image: url(../images/business-logistics-header-02.jpg);
-    padding-top: 12.4rem;
+    padding-top: 10.4rem;
     padding-bottom: 3rem;
     background-size: 100%;
 }
@@ -658,7 +658,7 @@ a:hover{
 }
 .prevp-top{
     background-image: url(../images/businesses-top-header-02.jpg);
-    padding-top: 12.4rem;
+    padding-top: 10.4rem;
     padding-bottom: 3rem;
     background-size: 100%;
 }
@@ -687,7 +687,7 @@ a:hover{
 }
 .csr-top{
     background-image: url(../images/csr-header-top-bg-08.jpg);
-    padding-top: 10.6rem;
+    padding-top: 8.3rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -1620,5 +1620,8 @@ a:hover{
         left: -85%;
         bottom: -350px;
         width: 21vw;
+    }
+    .csr-tab{
+        padding-bottom: 5rem;
     }
 }
