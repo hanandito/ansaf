@@ -38,7 +38,7 @@ $(document).ready(function() {
   items:2,
   responsive:{
    0: {
-     stagePadding: 27,
+     stagePadding: 40,
      items: 1,
      dots: false,
      nav: false
