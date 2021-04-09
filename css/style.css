@@ -1330,6 +1330,7 @@ a:hover{
     }
     .thumbnail-bus{
         padding-top: 5rem;
+        padding-bottom: 7rem;
     }
     .thumbnail-bus .item {
         padding: 2.5rem;
@@ -1563,20 +1564,25 @@ a:hover{
     }
     .home-mid-content .thumbnail .title .slide-number{
         position: absolute;
-        right: 0;
-        bottom: 17px;
+        right: 20px;
+        bottom: 70px;
+        color: #fff !important;
+    }
+    .home-mid-content .thumbnail .title .subtitle{
+        text-align: center;
     }
     .bg-mid-value .title-thumbnail {
         position: relative;
         transform: none;
         left: 0;
-        text-align: left;
+        text-align: center;
         margin-top: 40px;
     }
     .bg-mid-value .slide-number {
         position: absolute;
-        right: 0;
+        right: 20px;
         text-align: left;
-        bottom: 15px;
+        bottom: 70px;
+        color: #fff;
     }
 }
