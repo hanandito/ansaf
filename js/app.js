@@ -142,13 +142,15 @@ $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
 })
 $('.carousel-mobile-projects-list').addClass('owl-carousel owl-theme').owlCarousel({
   loop:false,
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
   navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
   items:2,
   responsive:{
    0: {
      items: 1,
      dots: false,
-     nav: true
+     nav: true,
    },
    600: {
      items: 1,

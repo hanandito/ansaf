@@ -713,9 +713,10 @@ a:hover{
     color: #fff;
     padding: 20px;
 }
-.csr-tab .nav-link.active{
+.csr-tab .nav-link.active, .csr-tab .nav-link:hover{
     background-color: #112939;
     color: #fff;
+    transition: all .3s;
 }
 .csr-tab .details{
     padding: 10rem 8em;
