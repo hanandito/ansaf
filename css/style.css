@@ -681,7 +681,7 @@ a:hover{
 }
 .csr-top{
     background-image: url(../images/csr-header-top-bg-08.jpg);
-    padding-top: 12.6rem;
+    padding-top: 10.6rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -716,7 +716,7 @@ a:hover{
 }
 .gallery-top{
     background-image: url(../images/gallery-top-header-03.jpg);
-    padding-top: 12.6rem;
+    padding-top: 10.6rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -749,7 +749,7 @@ a:hover{
 }
 .contact-top{
     background-image: url(../images/contact-header-top-bg-02.jpg);
-    padding-top: 12.6rem;
+    padding-top: 10.6rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -794,7 +794,7 @@ a:hover{
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     position: absolute;
-    bottom: 6px;
+    bottom: 2px;
     width: 49%;
 }
 .carousel-homebanner .owl-nav .owl-next::after{
@@ -816,7 +816,7 @@ a:hover{
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     position: absolute;
-    bottom: 6px;
+    bottom: 2px;
     width: 49%;
 }
 .carousel-homebanner .owl-nav .owl-prev::after{
@@ -1025,7 +1025,7 @@ a:hover{
 }
 @media screen and (max-width: 414px) {
     p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .font-75{
         font-size: 50px;
