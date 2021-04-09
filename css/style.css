@@ -1244,6 +1244,7 @@ a:hover{
     .vision-mid {
         background-image: url(../images/vision-mid-second-section-mobile-07-06.jpg);
         padding-bottom: 13rem;
+        overflow-x: hidden;
     }
     .vision-mid .second-section {
         margin-top: 10rem;
