@@ -45,7 +45,7 @@
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    left: -50px;
+    left: -63px;
     top: 35px;
     text-align: left;
     list-style-type: none;
@@ -54,6 +54,7 @@
     background-color: #fff;
     padding: 13px 20px;
     transition: opacity 1s ease-in-out;
+    text-align: center;
 }
 .navbar-ansaf > .row > .menu-wrap > ul > li:hover ul{
     display: block;
@@ -633,10 +634,16 @@ a:hover{
 .proj-mid .first-section .details{
     padding-top: 12rem;
 }
+.proj-mid .first-section .details .brief{
+    width: 490px;
+}
 .proj-mid .second-section{
     padding-top: 11rem;
     padding-bottom: 22.2rem;
     text-align: center;
+}
+.proj-mid .second-section .brief{
+    width: 510px;
 }
 .proj-mid .second-section .content-wrapper{
     align-items: center;
@@ -679,6 +686,9 @@ a:hover{
     padding-bottom: 12rem;
     padding-left: 6rem;
 }
+.prevp-mid .first-section .brief {
+    width: 410px;
+}
 .list-prevp{
     padding-top: 7.7rem;
 }
@@ -701,6 +711,9 @@ a:hover{
 .csr-mid .content-mid{
     width: 50vw;
     float: right;
+}
+.csr-mid .brief{
+    width: 400px;
 }
 .csr-mid .content-wrapper{
     padding-top: 10rem;
@@ -783,8 +796,16 @@ a:hover{
     margin-top: 3.3rem;
     margin-bottom: 3.3rem;
 }
+.form-group.left-forms:last-child{
+    margin-bottom: 0;
+}
 .section-forms-ansaf{
-    padding: 7rem 3rem;
+    padding: 7rem 3rem 10rem;
+}
+.section-forms-ansaf .button-forms{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover{
     background: none;
@@ -876,6 +897,9 @@ a:hover{
     transform: scaleX(1);
     transform-origin: 100% 50%;
 }
+.carousel-milestone .details{
+    width: 470px;
+}
 .carousel-gallery .owl-nav .owl-next{
     display:inline-block;
     margin:0;
@@ -931,7 +955,7 @@ a:hover{
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     position: absolute;
-    bottom: 6px;
+    bottom: 0;
     width: 49%;
 }
 .carousel-ourbusiness .owl-nav .owl-next::after{
@@ -953,7 +977,7 @@ a:hover{
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     position: absolute;
-    bottom: 6px;
+    bottom: 0;
     width: 49%;
 }
 .carousel-ourbusiness .owl-nav .owl-prev::after{
@@ -1174,7 +1198,7 @@ a:hover{
     .about-mid .second-section{
         background-image: url(../images/about-mid-second-section-mobile-06-05.jpg);
         padding-top: 14vh;
-        padding-bottom: 60vh;
+        padding-bottom: 50vh;
         padding-left: 1.2rem;
         padding-right: 1.2rem;
     }
@@ -1215,6 +1239,9 @@ a:hover{
     }
     .carousel-milestone.owl-theme .owl-dots .owl-dot.active span,.carousel-mission-mobile .owl-dots .owl-dot.active span {
         background: #fff;
+    }
+    .carousel-milestone .details{
+        width: 100%;
     }
     .about-mid .second-section .owl-nav{
         position: static;
@@ -1411,6 +1438,11 @@ a:hover{
         padding-top: 5rem;
         padding-bottom: 9rem;
     }
+    .proj-mid .projects-tractor {
+        right: -213px;
+        bottom: 3vh;
+        width: 58vw;
+    }
     .proj-mid .second-section .content-wrapper{
         margin-left: auto;
         margin-right: auto;
@@ -1428,6 +1460,12 @@ a:hover{
     }
     .proj-mid .first-section .details {
         padding-top: 4rem;
+    }
+    .proj-mid .first-section .details .brief{
+        width: 93%;
+    }
+    .proj-mid .second-section .brief{
+        width: 93%;
     }
     .prevp-top {
         background-image: url(../images/businesses-top-header-mobile-02.jpg);
@@ -1449,6 +1487,9 @@ a:hover{
     }
     .prevp-mid .first-section .details h2 {
         margin-bottom: -20px;
+    }
+    .prevp-mid .first-section .brief {
+        width: 90%;
     }
     .list-prevp {
         padding-top: 4rem;
@@ -1473,6 +1514,9 @@ a:hover{
         float: none;
         position: static;
         z-index: 0;
+    }
+    .csr-mid .brief{
+        width: 100%;
     }
     .csr-mid .content-wrapper{
         padding-left: 2rem;
@@ -1517,6 +1561,9 @@ a:hover{
     }
     .section-forms-ansaf {
         padding: 3rem 3rem;
+    }
+    .section-forms-ansaf .button-forms{
+        position: relative;
     }
     .form-group.left-forms {
         margin-top: 2rem;
@@ -1617,8 +1664,8 @@ a:hover{
         transform-origin: 100% 50%;
     }
     .detail-logistic .second-section .guy {
-        left: -85%;
-        bottom: -350px;
+        left: -65%;
+        bottom: -380px;
         width: 21vw;
     }
     .csr-tab{

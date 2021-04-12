@@ -33,7 +33,7 @@ $(document).ready(function() {
  })
  $('.carousel-ourbusiness').addClass('owl-carousel owl-theme').owlCarousel({
   loop:false,
-  margin: 17,
+  margin: 45,
   navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
   items:2,
   responsive:{
@@ -151,6 +151,8 @@ $('.carousel-mobile-projects-list').addClass('owl-carousel owl-theme').owlCarous
      items: 1,
      dots: false,
      nav: true,
+     mouseDrag: false,
+     touchDrag: false
    },
    600: {
      items: 1,
