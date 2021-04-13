@@ -509,6 +509,10 @@ a:hover{
     padding-bottom: 9rem;
     text-align: center;
 }
+.bus-mid .first-section .brief{
+    width: 773px;
+    margin: auto;
+}
 .thumbnail-bus .item{
     padding: 6rem;
 }
@@ -1374,6 +1378,10 @@ a:hover{
         padding-left: 2rem;
         padding-right: 2rem;
         text-align: left;
+    }
+    .bus-mid .first-section .brief{
+        width: 100%;
+        margin: auto;
     }
     .thumbnail-bus{
         padding-top: 5rem;

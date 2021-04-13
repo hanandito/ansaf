@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  AOS.init({
+    duration: 1200
+   });
   $('.menu-icon').click(function() {
     $('.side-menu').addClass("active");
   })
