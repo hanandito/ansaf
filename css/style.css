@@ -120,6 +120,12 @@ body{
 }
 h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 0.3px;}
 p{
+    line-height: 26px;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.2;
+}
+p{
     font-size: 0.9rem;
 }
 .font-titillium-reg{
@@ -329,8 +335,8 @@ a:hover{
 }
 .about-top{
     background-image: url(../images/about-top-header-04.jpg);
-    padding-top: 10.4rem;
-    padding-bottom: 2.3rem;
+    padding-top: 10.1rem;
+    padding-bottom: 1.4rem;
     background-size: 100%;
 }
 .about-top .elements{
@@ -436,9 +442,8 @@ a:hover{
 }
 .bod-top{
     background-image: url(../images/bod-top-header-03.jpg);
-    background-size: cover;
-    padding-top: 10.8rem;
-    padding-bottom: 8.3rem;
+    padding-top: 10.4rem;
+    padding-bottom: 8.5rem;
     background-size: 100%;
 }
 .bod-top .elements{
@@ -485,7 +490,7 @@ a:hover{
 }
 .bus-top{
     background-image: url(../images/businesses-top-header-02.jpg);
-    padding-top: 10.6rem;
+    padding-top: 10.4rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -507,13 +512,16 @@ a:hover{
 .thumbnail-bus .item{
     padding: 6rem;
 }
+.thumbnail-bus .details{
+    width: 85%;
+}
 .bus-mid .bus-client{
     padding: 10rem 0;
 }
 .busd-top{
     background-image: url(../images/businesses-mining-top-header-02.jpg);
     padding-top: 10.4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 3.3rem;
     background-size: 100%;
 }
 .busd-top .elements{
@@ -540,7 +548,7 @@ a:hover{
 .buss-top{
     background-image: url(../images/businesses-services-header-02.jpg);
     padding-top: 10.4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 3.3rem;
     background-size: 100%;
 }
 .buss-top .elements{
@@ -580,7 +588,7 @@ a:hover{
 .busl-top{
     background-image: url(../images/business-logistics-header-02.jpg);
     padding-top: 10.4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 3.3rem;
     background-size: 100%;
 }
 .busl-top .elements{
@@ -697,7 +705,7 @@ a:hover{
 }
 .csr-top{
     background-image: url(../images/csr-header-top-bg-08.jpg);
-    padding-top: 8.3rem;
+    padding-top: 10.5rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -736,7 +744,7 @@ a:hover{
 }
 .gallery-top{
     background-image: url(../images/gallery-top-header-03.jpg);
-    padding-top: 10.6rem;
+    padding-top: 10.5rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -769,7 +777,7 @@ a:hover{
 }
 .contact-top{
     background-image: url(../images/contact-header-top-bg-02.jpg);
-    padding-top: 10.6rem;
+    padding-top: 10.5rem;
     padding-bottom: 10.3rem;
     background-size: 100%;
 }
@@ -1057,12 +1065,14 @@ a:hover{
 @media screen and (max-width: 414px) {
     p {
         font-size: 0.9rem;
+        line-height: 1.6;
     }
     .font-75{
         font-size: 70px;
     }
-    h1, h2, h3, h4, h5, h6, p, a {
+    h1, h2, h3, h4, h5, h6, a {
         letter-spacing: 0.1px;
+        line-height: 1.2;
     }
     .bg-home-top{
         width: 100%;
@@ -1183,7 +1193,7 @@ a:hover{
     .about-top{
         background-image: url(../images/about-top-header-mobile-04.jpg);
         padding-top: 29.9rem;
-        padding-bottom: 4.4rem;
+        padding-bottom: 3.9rem;
     }
     .about-top .elements {
         top: 247px;
@@ -1333,7 +1343,8 @@ a:hover{
     }
     .bod-mid .second-section {
         background-image: url(../images/bod-second-section-mobile-03.jpg);
-        padding-bottom: 3.7rem;
+        padding-bottom: 0;
+        padding-top: 19.9rem;
     }
     .bod-bottom-content .ornament-blue {
         width: 20vw;
@@ -1374,6 +1385,9 @@ a:hover{
     .thumbnail-bus a{
         display: block !important;
         text-align: center;
+    }
+    .thumbnail-bus .details{
+        width: 95%;
     }
     .bus-mid .bus-client img{
         width: 75%;
