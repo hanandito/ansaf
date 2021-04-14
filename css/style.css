@@ -375,6 +375,9 @@ a:hover{
     width: 139px;
     transition: none;
 }
+.about-mid .brief-about{
+    width: 420px;
+}
 .footer-content .number-counter{
     font-size: 80px;
 }
@@ -1229,6 +1232,9 @@ a:hover{
         right: 55vw;
         transition: none;
     }
+    .about-mid .brief-about{
+        width: 100%;
+    }
     .about-bottom-content {
         background-image: url(../images/bottom-about-bottom-content-mobile-06.jpg);
         text-align: center;
@@ -1397,7 +1403,7 @@ a:hover{
     .thumbnail-bus .item {
         padding: 2.5rem;
     }
-    .thumbnail-bus a{
+    .thumbnail-bus a.link-gray-border{
         display: block !important;
         text-align: center;
     }
