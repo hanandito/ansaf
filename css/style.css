@@ -1729,4 +1729,7 @@ a:hover{
         margin-left: -11px;
         margin-right: -11px;
     }
+    .link-orange-border::after{
+        margin-bottom: -10px;
+    }
 }
