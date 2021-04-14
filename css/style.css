@@ -118,6 +118,10 @@ body{
     font-family: "TitilliumWeb Italic Regular";
     src: url(TitilliumWeb-ExtraLightItalic.ttf) format("truetype");
 }
+@font-face{
+    font-family: "TitilliumWeb Bold";
+    src: url(TitilliumWeb-Bold.ttf) format("truetype");
+}
 h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 0.3px;}
 p{
     line-height: 26px;
@@ -133,6 +137,9 @@ p{
 }
 .font-titillium-italic{
     font-family: "TitilliumWeb Italic Regular";
+}
+.font-titillium-bold{
+    font-family: "TitilliumWeb Bold";
 }
 .font-roboto{
     font-family: "Roboto Light";
@@ -1705,5 +1712,21 @@ a:hover{
     }
     .csr-tab{
         padding-bottom: 5rem;
+    }
+    .link-white-border::after{
+        margin-bottom: -10px;
+        margin-left: -18px;
+        margin-right: -18px;
+    }
+    .home-about a{
+        display: inline-block !important;
+        padding: 0.6rem;
+        width: 90%;
+        margin: 5rem auto;
+    }
+    .home-about a::after{
+        margin-bottom: -10px;
+        margin-left: -11px;
+        margin-right: -11px;
     }
 }
