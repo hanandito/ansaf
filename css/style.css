@@ -238,6 +238,10 @@ a:hover{
     width: 510px;
     transition: none;
 }
+.home-about .details{
+    width: 520px;
+    margin: auto;
+}
 .home-mid-content .image-thumbnail{
     overflow: hidden;
 }
@@ -1102,6 +1106,9 @@ a:hover{
     .home-about .tractors {
         left: -190px;
         width: 200px;
+    }
+    .home-about .details{
+        width: 82%;
     }
     .bg-home-top {
         background-image: url(../images/home-top-background-mobile-15.jpg);
