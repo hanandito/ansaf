@@ -602,6 +602,7 @@ a:hover{
     background-image: url(../images/thum-services-content-bg-02.jpg);
     background-size: cover;
     padding: 5.5rem 5rem 6.5rem 2.5rem;
+    background-position: bottom right;
 }
 .busl-top{
     background-image: url(../images/business-logistics-header-02.jpg);
