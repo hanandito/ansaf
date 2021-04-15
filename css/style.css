@@ -1200,7 +1200,7 @@ a:hover{
     .footer-details .link-orange-border{
         width: 100%;
         text-align: center;
-        padding: 10px 15px;
+        padding: 15px 15px;
     }
     .footer-details .link-socmed a{
         margin-bottom: 8px;
@@ -1498,7 +1498,7 @@ a:hover{
         justify-content: flex-start;
     }
     .proj-mid .second-section .button-link {
-        padding: .6rem 1rem;
+        padding: .9rem 1rem;
     }
     .proj-mid .second-section .col-lg-12{
         padding-right: 2rem;
@@ -1608,13 +1608,16 @@ a:hover{
         padding-bottom: 2rem;
     }
     .section-forms-ansaf {
-        padding: 3rem 3rem;
+        padding: 3rem 2rem;
     }
     .section-forms-ansaf .button-forms{
         position: relative;
     }
     .form-group.left-forms {
         margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .form-group.left-forms:last-child {
         margin-bottom: 2rem;
     }
     .menu{
@@ -1719,23 +1722,29 @@ a:hover{
     .csr-tab{
         padding-bottom: 5rem;
     }
-    .link-white-border::after{
-        margin-bottom: -10px;
-        margin-left: -18px;
-        margin-right: -18px;
-    }
     .home-about a{
         display: inline-block !important;
-        padding: 0.6rem;
         width: 90%;
         margin: 5rem auto;
     }
-    .home-about a::after{
-        margin-bottom: -10px;
-        margin-left: -11px;
-        margin-right: -11px;
+    .section-forms-ansaf .button-form {
+        position: relative;
+        bottom: auto;
     }
-    .link-orange-border::after{
-        margin-bottom: -10px;
+    .link-white-border {
+        padding: 15px 18px;
+    }
+    .link-white-border::after {
+        margin-bottom: -15px;
+        padding-bottom: 13px;
+        margin-left: -18px;
+        margin-right: -18px;
+    }
+    .link-orange-border, .link-gray-border{
+        padding: 15px 15px;
+    }
+    .link-orange-border::after, .link-gray-border::after{
+        margin-bottom: -17px;
+        padding-bottom: 12px;
     }
 }
