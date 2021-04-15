@@ -758,7 +758,10 @@ a:hover{
     transition: all .3s;
 }
 .csr-tab .details{
-    padding: 10rem 8em;
+    padding: 5rem 8em;
+}
+.csr-tab .brief-details{
+    width: 90%;
 }
 .gallery-top{
     background-image: url(../images/gallery-top-header-03.jpg);
@@ -1576,6 +1579,9 @@ a:hover{
     .csr-tab .nav-link {
         padding: 14px 9px;
         font-size: 0.7rem;
+    }
+    .csr-tab .brief-details{
+        width: 100%;
     }
     .gallery-top {
         background-image: url(../images/gallery-top-header-mobile-03.jpg);
