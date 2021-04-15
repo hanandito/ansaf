@@ -36,15 +36,15 @@ $(document).ready(function() {
  })
  $('.carousel-ourbusiness').addClass('owl-carousel owl-theme').owlCarousel({
   loop:false,
-  margin: 45,
   navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
   items:2,
   responsive:{
    0: {
-     stagePadding: 40,
+     stagePadding: 30,
      items: 1,
      dots: false,
-     nav: false
+     nav: false,
+     margin: 15
    },
    600: {
      items: 1,
@@ -54,7 +54,8 @@ $(document).ready(function() {
     stagePadding: 40,
      items: 2,
      dots: false,
-     nav: true
+     nav: true,
+     margin: 45
    }
  }
 })
