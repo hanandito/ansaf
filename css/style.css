@@ -705,8 +705,8 @@ a:hover{
 }
 .prevp-mid .img-content{
     width: 51.2vw;
-    position: absolute;
-    right: 0;
+    position: relative;
+    float: right;
 }
 .prevp-mid .first-section .details{
     padding-top: 12rem;
