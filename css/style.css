@@ -809,7 +809,8 @@ a:hover{
     margin-right: -48.3px;
 }
 .modal-gallery .content-wrapper{
-    margin-top: 10rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 .contact-top{
     background-image: url(../images/contact-header-top-bg-02.jpg);
