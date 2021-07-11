@@ -516,6 +516,20 @@ a:hover{
     width: 10.9vw;
     z-index: 2;
 }
+.bus-white{
+    background-color: #fff;
+    padding-top: 10.3rem;
+    padding-bottom: 4.2rem;
+    background-size: 100%;
+}
+.bus-white .elements{
+    position: absolute;
+    top: -21.1px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 7vw;
+    z-index: 2;
+}
 .bus-mid .first-section{
     background-image: url(../images/bus-mid-first-section-02.jpg);
     background-size: cover;
@@ -1420,6 +1434,13 @@ a:hover{
         padding-top: 32.6rem;
     }
     .bus-top .elements {
+        width: 20vw;
+    }
+    .bus-white {
+        background-image: url(../images/businesses-top-header-mobile-02.jpg);
+        padding-top: 32.6rem;
+    }
+    .bus-white .elements {
         width: 20vw;
     }
     .bus-mid .first-section {
