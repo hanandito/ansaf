@@ -345,17 +345,17 @@ a:hover{
     content: '+';
 }
 .about-top{
-    background-image: url(../images/about-top-header-04.jpg);
+    background-color: #fff;
     padding-top: 10.1rem;
     padding-bottom: 1.4rem;
     background-size: 100%;
 }
 .about-top .elements{
     position: absolute;
-    top: 215px;
+    top: 70.6px;
     right: 0;
     transform: translateY(-50%);
-    width: 10.9vw;
+    width: 6.1vw;
     z-index: 2;
 }
 .about-mid .content-mid, .vision-mid .content-mid{
@@ -405,6 +405,23 @@ a:hover{
     left: 0;
     top: 70px;
 }
+.about-mid .nav-pills .nav-link{
+    color: #666666;
+}
+.about-mid .nav-pills .nav-link:hover{
+    color: #666666;
+}
+.about-mid .nav-pills .nav-link.active, .about-mid .nav-pills .show > .nav-link {
+    color: #ed6f30;
+    background-color: #fff;
+}
+.about-visi-content .segitiga-biru{
+    position: absolute;
+    left: 0;
+    top: -40%;
+    width: 10.9vw;
+}
+
 .about-bottom-content{
     background-image: url(../images/bottom-about-bottom-content-05.jpg);
     background-size: cover;
@@ -531,7 +548,7 @@ a:hover{
     z-index: 2;
 }
 .bus-mid .first-section{
-    background-image: url(../images/bus-mid-first-section-02.jpg);
+    background-image: url(../images/gallery-top-header-new-03-13.jpg);
     background-size: cover;
     padding-top: 9rem;
     padding-bottom: 9rem;
@@ -737,28 +754,32 @@ a:hover{
     font-size: 13px;
 }
 .csr-top{
-    background-image: url(../images/csr-header-top-bg-08.jpg);
-    padding-top: 10.5rem;
-    padding-bottom: 10.3rem;
+    background-color: #fff;
+    padding-top: 11rem;
+    padding-bottom: 3rem;
     background-size: 100%;
 }
 .csr-top .elements{
     position: absolute;
-    top: 210px;
+    top: 95px;
     right: 0;
     transform: translateY(-50%);
-    width: 10.9vw;
+    width: 6.9vw;
+}
+.csr-mid{
+    overflow-x: hidden;
 }
 .csr-mid .content-mid{
     width: 50vw;
     float: right;
+    margin-right: -32px;
 }
 .csr-mid .brief{
     width: 400px;
 }
 .csr-mid .content-wrapper{
-    padding-top: 8rem;
-    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 .csr-tab .nav-link{
     background-color: #f36b27;
@@ -778,18 +799,67 @@ a:hover{
 .csr-tab .brief-details{
     width: 90%;
 }
+.carousel-csr .owl-nav{
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    margin-right: -48.3px;
+}
+.carousel-csr .owl-nav .owl-next{
+    display:inline-block;
+    margin:0;
+}
+.carousel-csr .owl-nav button.owl-next::after{
+    display:block;
+    content: '';
+    border-bottom: solid 4px #ed6f30;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    position: absolute;
+    bottom: 2px;
+    width: 49%;
+}
+.carousel-csr .owl-nav .owl-next::after{
+    transform-origin: 100% 50%;
+}
+.carousel-csr .owl-nav .owl-next:hover::after{
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+}
+
+.carousel-csr .owl-nav .owl-prev{
+    display:inline-block;
+    margin:0;
+}
+.carousel-csr .owl-nav button.owl-prev::after{
+    display:block;
+    content: '';
+    border-bottom: solid 4px #ed6f30;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    position: absolute;
+    bottom: 2px;
+    width: 49%;
+}
+.carousel-csr .owl-nav .owl-prev::after{
+    transform-origin: 0% 50%;
+}
+.carousel-csr .owl-nav .owl-prev:hover::after{
+    transform: scaleX(1);
+    transform-origin: 100% 50%;
+}
 .gallery-top{
-    background-image: url(../images/gallery-top-header-03.jpg);
+    background-color: #fff;
     padding-top: 10.5rem;
-    padding-bottom: 10.3rem;
+    padding-bottom: 3.3rem;
     background-size: 100%;
 }
 .gallery-top .elements{
     position: absolute;
-    top: 210px;
+    top: 102px;
     right: 0;
     transform: translateY(-50%);
-    width: 10.9vw;
+    width: 6.9vw;
 }
 .modal-gallery{
     max-width: 95.5%;
@@ -813,20 +883,20 @@ a:hover{
     margin-left: 1rem;
 }
 .contact-top{
-    background-image: url(../images/contact-header-top-bg-02.jpg);
-    padding-top: 10.5rem;
-    padding-bottom: 10.3rem;
+    background-color: #fff;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
     background-size: 100%;
 }
 .contact-top .elements{
     position: absolute;
-    top: 210px;
+    top: 111px;
     right: 0;
     transform: translateY(-50%);
-    width: 10.9vw;
+    width: 7.1vw;
 }
 .contact-mid .content-mid{
-    width: 65vw;
+    width: 48vw;
     float: right;
 }
 .contact-mid .content-wrapper{
