@@ -385,6 +385,10 @@ a:hover{
 .about-mid .brief-about{
     width: 420px;
 }
+.about-mid .menu-about{
+    position: relative;
+    z-index: 2;
+}
 .footer-content .number-counter{
     font-size: 80px;
 }
