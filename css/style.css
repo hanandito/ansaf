@@ -520,17 +520,17 @@ a:hover{
     color: #666666;
 }
 .bus-top{
-    background-image: url(../images/businesses-top-header-02.jpg);
-    padding-top: 10.4rem;
-    padding-bottom: 10.3rem;
+    background-color: #fff;
+    padding-top: 9rem;
+    padding-bottom: 2rem;
     background-size: 100%;
 }
 .bus-top .elements{
     position: absolute;
-    top: 210px;
+    top: 80px;
     right: 0;
     transform: translateY(-50%);
-    width: 10.9vw;
+    width: 5.9vw;
     z-index: 2;
 }
 .bus-white{
@@ -685,12 +685,11 @@ a:hover{
     transition: none;
 }
 .proj-mid{
-    background-image: url(../images/projects-background-04.jpg);
-    background-size: cover;
+    background-color: #0E212D;
     background-position: bottom;
 }
 .proj-mid .first-section .details{
-    padding-top: 12rem;
+    padding-top: 2rem;
 }
 .proj-mid .first-section .details .brief{
     width: 490px;

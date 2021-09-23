@@ -242,3 +242,20 @@ $(window).scroll(function() {
   }
 
 });
+
+jQuery(document).ready(function($){
+	//open interest point description
+	$(".popup_btn").hover(function () {
+		var selectedPoint = $(this);
+		if(selectedPoint.hasClass('open') ) {
+			selectedPoint.removeClass('open');
+		} else {
+			selectedPoint.addClass('open').siblings('.popup_btn.open').removeClass('open');
+		}
+	});  
+});
+  
+  
+  
+  
+
