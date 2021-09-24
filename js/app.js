@@ -128,6 +128,7 @@ $('.carousel-bod').addClass('owl-carousel owl-theme').owlCarousel({
 })
 $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
+  margin: 10,
   navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
   responsive:{
    0: {

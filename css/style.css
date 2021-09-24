@@ -881,9 +881,9 @@ a:hover{
 .carousel-gallery .owl-nav{
     position: absolute;
     right: -76%;
-    top: 75%;
+    bottom: 100%;
     margin-right: 0;
-    transform: translate(-50%, 50%);
+    transform: translateX(-50%);
 }
 .modal-gallery .content-wrapper{
     margin-top: 1rem;
