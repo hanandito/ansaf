@@ -880,9 +880,10 @@ a:hover{
 }
 .carousel-gallery .owl-nav{
     position: absolute;
-    right: 0;
-    top: 85px;
-    margin-right: -48.3px;
+    right: -76%;
+    top: 75%;
+    margin-right: 0;
+    transform: translate(-50%, 50%);
 }
 .modal-gallery .content-wrapper{
     margin-top: 1rem;
