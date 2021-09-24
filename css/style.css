@@ -1,6 +1,9 @@
 *{
     transition: all .3s;
 }
+body{
+    position: relative;
+}
 @font-face{
     font-family: "Roboto Light";
     src: url(Roboto-Light.ttf) format("truetype");
@@ -770,7 +773,7 @@ a:hover{
     width: 6.9vw;
 }
 .csr-mid{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .csr-mid .content-mid{
     width: 50vw;
@@ -1203,6 +1206,33 @@ a:hover{
     padding-bottom: 5rem;
     background-repeat: no-repeat;
     background-size: cover;;
+}
+.nav-about-content{
+    position: sticky;
+    top: 20vh;
+    z-index: 3;
+}
+.nav-about-content .wrap-position{
+    z-index: 3;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    padding: 50px;
+    background-color: #fff;
+}   
+.nav-about-content a{
+    padding: 10px;
+    color: #666666;
+}
+.nav-about-content a.current{
+    color: #ED6F30;
+}
+.nav-about-content a:hover{
+    color: #ED6F30;
+}
+.footer-top, .footer-details{
+    z-index: 4;
+    position: relative;
 }
 @media screen and (max-width: 414px) {
     p {
