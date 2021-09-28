@@ -192,6 +192,50 @@ $('.carousel-mobile-projects-list').addClass('owl-carousel owl-theme').owlCarous
    }
  }
 })
+$('.carousel-mobile-visi').addClass('owl-carousel owl-theme').owlCarousel({
+  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
+  margin: 20,
+  responsive:{
+   0: {
+     items: 1,
+     dots: false,
+     nav: true,
+     mouseDrag: false,
+     touchDrag: false,
+     loop: true
+   },
+   600: {
+     items: 1,
+     nav: false
+   },
+   1000: {
+     items: 1,
+     dots: false
+   }
+ }
+})
+$('.carousel-mobile-stagepadding').addClass('owl-carousel owl-theme').owlCarousel({
+  margin: 20,
+  responsive:{
+   0: {
+     dots: false,
+     nav: false,
+     center: true,
+     loop: false,
+     stagePadding: 30,
+     items: 1,
+     left: -30
+   },
+   600: {
+     items: 1,
+     nav: false
+   },
+   1000: {
+     items: 1,
+     dots: false
+   }
+ }
+})
  /*Animation: Moving Ornament on Scroll*/
 
   $(window).scroll(function(){

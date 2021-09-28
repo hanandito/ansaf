@@ -1238,6 +1238,9 @@ a:hover{
 .footer-details p.alamat{
     width: 80%;
 }
+.about-mid p.visi-misi{
+    width: 85%;
+}
 @media screen and (max-width: 414px) {
     p {
         font-size: 0.9rem;
@@ -1380,6 +1383,12 @@ a:hover{
     .about-top .elements {
         top: 77px;
         width: 14vw;
+    }
+    .about-visi-content .segitiga-biru {
+        position: absolute;
+        left: 0;
+        top: -13.2%;
+        width: 10.9vw;
     }
     .about-mid .content-wrapper {
         padding-top: 4rem;
@@ -1555,8 +1564,9 @@ a:hover{
         width: 20vw;
     }
     .bus-white {
-        background-image: url(../images/businesses-top-header-mobile-02.jpg);
-        padding-top: 32.6rem;
+        background-color: #fff;
+        padding-top: 10.6rem;
+        padding-bottom: 2.7rem;
     }
     .bus-white .elements {
         width: 20vw;
@@ -1914,5 +1924,47 @@ a:hover{
     }
     .nav-about-content{
         display: none;
+    }
+    .carousel-mobile-visi .owl-nav .owl-prev{
+        position: absolute;
+        left: 0;
+        top: 15%;
+    }
+    .carousel-mobile-visi .owl-nav .owl-next{
+        position: absolute;
+        right: 7%;
+        top: 15%;
+    }
+    .about-visi-content{
+        overflow-x: hidden;
+    }
+    .visi-desc, .misi-desc{
+        width: 85%;
+    }
+    .carousel-mobile-visi{
+        width: 95%;
+    }
+    .about-nilai{
+        overflow-x: hidden;
+    }
+    .about-mid p.visi-misi{
+        width: 87%;
+    }
+    .dewan-direksi{
+        overflow-x: hidden;
+    }
+    .footer-top a{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .csr-tab h6{
+        font-size: .8rem;
+    }
+    .close-mobile{
+        position: absolute;
+        right: 30px;
+        top: 15px;
     }
 }
