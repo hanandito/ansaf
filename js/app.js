@@ -134,7 +134,7 @@ $('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
    0: {
      items: 1,
      dots: false,
-     nav: false
+     nav: true
    },
    600: {
      items: 1,

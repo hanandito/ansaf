@@ -1778,8 +1778,8 @@ a:hover{
         text-align: justify;
     }
     .gallery-top {
-        background-image: url(../images/gallery-top-header-mobile-03.jpg);
-        padding-top: 32.6rem;
+        background-color: #fff;
+        padding-top: 10.6rem;
     }
     .gallery-top .elements {
         width: 20vw;
@@ -1988,5 +1988,40 @@ a:hover{
     }
     .first-section .font-75{
         line-height: 20px;
+    }
+    .thumbnail-gallery{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .modal-gallery .close-mobile{
+        position: absolute;
+        right: 14px;
+        top: 0;
+    }
+    .carousel-gallery .owl-nav .owl-prev{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .carousel-gallery .owl-nav .owl-next{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .carousel-gallery .owl-nav button.owl-next::after, .carousel-gallery .owl-nav button.owl-prev::after{
+        width: 100%;
+    }
+    .carousel-gallery .owl-nav{
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin: 0;
+        margin-top: 70px;
+        transform: none;
+    }
+    .carousel-gallery .owl-nav .owl-prev{
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 }
