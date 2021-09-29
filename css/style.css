@@ -109,6 +109,9 @@ body{
 .w-85{
     width: 85%;
 }
+.w-60{
+    width: 60%;
+}
 @font-face{
     font-family: "Roboto Light";
     src: url(Roboto-Light.ttf) format("truetype");
@@ -1213,6 +1216,10 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;;
 }
+.career-brief p{
+    width: 60%;
+    text-align: center;
+}
 .nav-about-content{
     position: sticky;
     top: 20vh;
@@ -2027,5 +2034,9 @@ a:hover{
     .section-forms-ansaf .button-form::after{
         margin-bottom: -16px;
         padding-bottom: 14px;
+    }
+    .career-brief p{
+        width: 85%;
+        text-align: justify;
     }
 }
