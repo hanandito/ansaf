@@ -699,7 +699,8 @@ a:hover{
     padding-top: 2rem;
 }
 .proj-mid .first-section .details .brief{
-    width: 490px;
+    width: 370px;
+    font-style: italic;
 }
 .proj-mid .second-section{
     padding-top: 11rem;
@@ -804,6 +805,10 @@ a:hover{
 }
 .csr-tab .brief-details{
     width: 90%;
+}
+.content-csr .brief-1, .content-csr .brief-2{
+    width: 87%;
+    text-align: justify;
 }
 .carousel-csr .owl-nav{
     position: absolute;
@@ -1557,8 +1562,8 @@ a:hover{
         margin-bottom: -18px;
     }
     .bus-top {
-        background-image: url(../images/businesses-top-header-mobile-02.jpg);
-        padding-top: 32.6rem;
+        background-color: #fff;
+        padding-top: 10.6rem;
     }
     .bus-top .elements {
         width: 20vw;
@@ -1648,7 +1653,7 @@ a:hover{
         overflow: hidden;
     }
     .proj-mid {
-        background-image: url(../images/projects-background-mobile-02.jpg);
+        background-color: #0E212D;
     }
     .proj-mid .details{
         padding-left: 2rem;
@@ -1680,6 +1685,7 @@ a:hover{
     }
     .proj-mid .first-section .details {
         padding-top: 4rem;
+        padding-bottom: 2rem;
     }
     .proj-mid .first-section .details .brief{
         width: 93%;
@@ -1714,16 +1720,25 @@ a:hover{
     .list-prevp {
         padding-top: 4rem;
     }
-    .carousel-mobile-projects-list .owl-nav{
+    .carousel-mobile-projects-list .owl-nav .owl-prev{
         position: absolute;
         bottom: 30px;
+        left: 17px;
+    }
+    .carousel-mobile-projects-list .owl-nav .owl-next{
+        position: absolute;
+        bottom: 30px;
+        right: 17px;
+    }
+    .carousel-mobile-projects-list h5{
+        font-size: 1.05rem;
     }
     .prevp-top.mobile-pros{
         padding-bottom: 6.5rem;
     }
     .csr-top {
-        background-image: url(../images/csr-header-top-bg-mobile-06.jpg);
-        padding-top: 32.6rem;
+        background-color: #fff;
+        padding-top: 10.6rem;
     }
     .csr-top .elements {
         width: 20vw;
@@ -1757,6 +1772,10 @@ a:hover{
     }
     .csr-tab .brief-details{
         width: 100%;
+    }
+    .content-csr .brief-1, .content-csr .brief-2{
+        width: 87%;
+        text-align: justify;
     }
     .gallery-top {
         background-image: url(../images/gallery-top-header-mobile-03.jpg);
@@ -1966,5 +1985,8 @@ a:hover{
         position: absolute;
         right: 30px;
         top: 15px;
+    }
+    .first-section .font-75{
+        line-height: 20px;
     }
 }

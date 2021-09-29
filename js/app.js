@@ -153,6 +153,8 @@ $('.carousel-csr').addClass('owl-carousel owl-theme').owlCarousel({
   responsive:{
    0: {
      items: 1,
+     stagePadding: 20,
+     margin: 10,
      dots: false,
      nav: false
    },
@@ -179,7 +181,8 @@ $('.carousel-mobile-projects-list').addClass('owl-carousel owl-theme').owlCarous
      dots: false,
      nav: true,
      mouseDrag: false,
-     touchDrag: false
+     touchDrag: false,
+     autoHeight: true
    },
    600: {
      items: 1,
