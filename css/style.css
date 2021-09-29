@@ -2039,4 +2039,9 @@ a:hover{
         width: 85%;
         text-align: justify;
     }
+    .career-brief{
+        background-image: url(../images/career-brief-bg-image-03.jpg);
+        padding-top: 7rem;
+        padding-bottom: 10rem;
+    }
 }
