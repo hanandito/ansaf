@@ -2058,4 +2058,7 @@ a:hover{
     .modal-gallery video {
         height: 30vh;
     }
+    .navbar-ansaf ul li a:hover {
+        color: #0e212d;
+    }
 }
