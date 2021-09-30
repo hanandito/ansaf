@@ -24,6 +24,8 @@ $(document).ready(function() {
        items: 1,
        dots: true,
        nav: false,
+       autoplay:true,
+       autoplayTimeout:5000
      },
      600: {
        items: 1,
