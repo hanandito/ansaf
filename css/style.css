@@ -878,6 +878,9 @@ a:hover{
 .modal-gallery{
     max-width: 95.5%;
 }
+.modal-gallery video{
+    height: 100vh;
+}
 .modal-gallery .modal-content{
     background: none;
     border: none;
@@ -2043,5 +2046,8 @@ a:hover{
         background-image: url(../images/career-brief-bg-image-03.jpg);
         padding-top: 7rem;
         padding-bottom: 10rem;
+    }
+    .modal-gallery video {
+        height: 30vh;
     }
 }
