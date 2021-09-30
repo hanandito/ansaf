@@ -804,7 +804,7 @@ a:hover{
     transition: all .3s;
 }
 .csr-tab .details{
-    padding: 5rem 8em;
+    padding: 0rem 8em;
 }
 .csr-tab .brief-details{
     width: 90%;
