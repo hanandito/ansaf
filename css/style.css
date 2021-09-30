@@ -1329,7 +1329,7 @@ a:hover{
         background: #fff;
     }
     .wrapper .inline-block img, .content-wrapper .inline-block img{
-        width: 120px;
+        width: 30px;
         object-fit: cover;
         object-position: right;
     }
