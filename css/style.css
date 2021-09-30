@@ -1791,6 +1791,7 @@ a:hover{
     .csr-tab .nav-link {
         padding: 14px 9px;
         font-size: 0.7rem;
+        height: 50px;
     }
     .csr-tab .brief-details{
         width: 100%;
