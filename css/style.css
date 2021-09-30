@@ -2065,4 +2065,7 @@ a:hover{
     .navbar-ansaf ul li a:hover {
         color: #0e212d;
     }
+    .modal-gallery .logo-pt{
+        width: 130px;
+    }
 }
