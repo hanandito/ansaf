@@ -112,6 +112,10 @@ body{
 .w-60{
     width: 60%;
 }
+/* Margins */
+.mlm-40{
+    margin-left: -40px;
+}
 @font-face{
     font-family: "Roboto Light";
     src: url(Roboto-Light.ttf) format("truetype");
