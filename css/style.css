@@ -1223,6 +1223,14 @@ a:hover{
     width: 60%;
     text-align: center;
 }
+.elements_karir{
+    position: absolute;
+    top: 70.6px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 6.1vw;
+    z-index: 2;
+}
 .nav-about-content{
     position: sticky;
     top: 20vh;
