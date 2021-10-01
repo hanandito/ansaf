@@ -76,6 +76,7 @@ body{
 }
 .navbar-ansaf .logo{
     width: 170px;
+    margin-top: -15px;
 }
 .navbar-ansaf .lang-ansaf .divider{
     width: 1px;
@@ -1866,6 +1867,7 @@ a:hover{
     }
     .navbar-ansaf .logo {
         width: 100px;
+        margin-top: 0;
     }
     .side-menu{
         background-color: #fff;
