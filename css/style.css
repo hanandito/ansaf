@@ -2087,7 +2087,8 @@ a:hover{
         height: 30vh;
     }
     .navbar-ansaf ul li a:hover {
-        color: #0e212d;
+        color: #315a75;
+        font-weight: bold;
     }
     .modal-gallery .logo-pt{
         width: 130px;
