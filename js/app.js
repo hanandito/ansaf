@@ -222,14 +222,14 @@ $('.carousel-mobile-visi').addClass('owl-carousel owl-theme').owlCarousel({
  }
 })
 $('.carousel-mobile-stagepadding').addClass('owl-carousel owl-theme').owlCarousel({
-  margin: 20,
+  margin: 15,
   responsive:{
    0: {
      dots: false,
      nav: false,
      center: true,
      loop: false,
-     stagePadding: 30,
+     stagePadding: 40,
      items: 1,
      left: -30
    },
