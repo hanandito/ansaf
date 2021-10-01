@@ -16,8 +16,6 @@ $(document).ready(function() {
     animateIn: 'fadeIn',
     autoplay:false,
     autoplayTimeout: 5000,
-    mouseDrag: false,
-    touchDrag: false,
     loop: true,
     responsive:{
      0: {
@@ -25,7 +23,9 @@ $(document).ready(function() {
        dots: true,
        nav: false,
        autoplay:true,
-       autoplayTimeout:5000
+       autoplayTimeout:5000,
+       mouseDrag: true,
+      touchDrag: true
      },
      600: {
        items: 1,
@@ -34,7 +34,9 @@ $(document).ready(function() {
      1000: {
        items: 1,
        dots: false,
-       nav: true
+       nav: true,
+       mouseDrag: false,
+       touchDrag: false
      }
    }
  })
