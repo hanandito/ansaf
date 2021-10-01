@@ -201,7 +201,6 @@ $('.carousel-mobile-projects-list').addClass('owl-carousel owl-theme').owlCarous
 })
 $('.carousel-mobile-visi').addClass('owl-carousel owl-theme').owlCarousel({
   navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
-  margin: 20,
   responsive:{
    0: {
      items: 1,
@@ -209,7 +208,8 @@ $('.carousel-mobile-visi').addClass('owl-carousel owl-theme').owlCarousel({
      nav: true,
      mouseDrag: false,
      touchDrag: false,
-     loop: true
+     loop: true,
+     margin: 30
    },
    600: {
      items: 1,
