@@ -923,7 +923,10 @@ a:hover{
     float: right;
 }
 .contact-mid .content-wrapper{
-    padding-top: 5rem;
+    padding-top: 3.3rem;
+}
+.contact-mid p{
+    width: 59%;
 }
 .input-gray{
     background-color: #f2f2f2;
@@ -2100,5 +2103,8 @@ a:hover{
     }
     .carousel-mobile-stagepadding img{
         width: 90% !important;
+    }
+    .contact-mid p{
+        width: 87%;
     }
 }
