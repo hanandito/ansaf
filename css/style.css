@@ -2005,6 +2005,9 @@ a:hover{
         right: 0;
         top: 15%;
     }
+    .carousel-mobile-visi.owl-theme .owl-nav [class*="owl-"]{
+        margin: 0;
+    }
     .about-visi-content{
         overflow-x: hidden;
     }

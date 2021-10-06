@@ -208,7 +208,7 @@ $('.carousel-mobile-visi').addClass('owl-carousel owl-theme').owlCarousel({
      mouseDrag: false,
      touchDrag: false,
      loop: true,
-     margin: 30
+     margin: 20
    },
    600: {
      items: 1,
