@@ -13,7 +13,6 @@ $(document).ready(function() {
  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
     animateOut: 'fadeOut',
     navText: ["<img src='images/chevron-left-edge-08.png'>","<img src='images/chevron-right-edge-08.png'>"],
-    animateIn: 'fadeIn',
     autoplay:false,
     autoplayTimeout: 5000,
     loop: true,
