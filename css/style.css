@@ -2104,9 +2104,6 @@ a:hover{
     #dewan_mobile{
 		position: absolute;top: 10px;left: 0;width: 50px;height: 50px;
     }
-    .carousel-mobile-stagepadding img{
-        width: 90% !important;
-    }
     .contact-mid p{
         width: 87%;
     }
