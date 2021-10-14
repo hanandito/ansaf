@@ -1295,6 +1295,10 @@ a:hover{
 .about-mid p.visi-misi{
     width: 85%;
 }
+.img-thumbnail {
+    background-color: #666;
+    border: 1px solid #666;
+}
 @media screen and (max-width: 414px) {
     p {
         font-size: 0.9rem;
